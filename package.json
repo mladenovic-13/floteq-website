@@ -12,6 +12,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@headlessui/react": "^1.5.0",
     "gatsby": "^4.0.0",
     "gatsby-plugin-emotion": "^7.0.0",
     "gatsby-plugin-image": "^2.9.1",
