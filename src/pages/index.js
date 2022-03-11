@@ -9,12 +9,16 @@ import Steps from '../components/Steps';
 import Hero from '../components/Hero';
 import HeroSimple from '../components/HeroSimple';
 import HeroImg from '../components/HeroImg';
+import Pricing from '../components/Pricing';
+import MainFeatures from '../components/MainFeatures';
 
 const Index = () => (
   <Layout>
     <HeroImg />
+    <MainFeatures />
     <Hero />
     <Steps />
+    <Pricing />
     <Solutions />
     <Stats />
     <Team />
