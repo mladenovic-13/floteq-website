@@ -137,7 +137,9 @@ function Nav() {
                 >
                   Contact
                 </a>
-                <Button size="default">Client Login</Button>
+                <button className=" uppercase mx-auto lg:mx-0 hover:bg-primary-darker bg-primary text-white font-bold rounded-full my-6 py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-200 ease-in-out">
+                  Client Login
+                </button>
               </div>
             </div>
           )}
