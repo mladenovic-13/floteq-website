@@ -14,11 +14,13 @@ function Team() {
         <div className="p-4">
           <div className="text-center mb-4 opacity-90">
             <a href="#" className="block relative">
-              <StaticImage
-                alt="profil"
-                src="../images/miles.webp"
-                className="mx-auto object-cover rounded-full h-40 w-40 "
-              />
+              <div className=" rounded-full">
+                <StaticImage
+                  alt="profil"
+                  src="../images/miles.webp"
+                  className="rounded-full mx-auto object-cover  h-40 w-40 "
+                />
+              </div>
             </a>
           </div>
           <div className="text-center">

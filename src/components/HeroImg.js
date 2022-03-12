@@ -12,7 +12,7 @@ const HeroImg = () => {
         />
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-4 lg:max-w-lg lg:pr-5">
+        <div className="mb-16 lg:my-12 lg:max-w-lg lg:pr-5">
           <h2 className="mb-2 font-sans text-5xl font-bold tracking-tight text-gray-900 sm:leading-none">
             GIVE YOUR VENUE THE BOOST IT NEEDS
           </h2>
@@ -25,9 +25,9 @@ const HeroImg = () => {
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
 
@@ -42,9 +42,9 @@ const HeroImg = () => {
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
 
@@ -61,9 +61,9 @@ const HeroImg = () => {
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
 
@@ -80,9 +80,9 @@ const HeroImg = () => {
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
 
@@ -98,9 +98,9 @@ const HeroImg = () => {
               fill="currentColor"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
 
