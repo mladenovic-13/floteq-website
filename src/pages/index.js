@@ -7,6 +7,7 @@ import HeroImg from '../components/HeroImg';
 import Pricing from '../components/Pricing';
 import MainFeatures from '../components/MainFeatures';
 import Statistic from '../components/Statistic';
+import SolutionSection from '../components/SolutionSection';
 
 const Index = () => (
   <Layout>

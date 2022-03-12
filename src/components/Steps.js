@@ -4,15 +4,18 @@ const Steps = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
-        <div className="lg:py-6 lg:pr-16">
+        <div className="lg:py-1 lg:pr-16">
+          <h1 className=" md:ml-12 md:mb-6 md:pl-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
+            Our Installation Process
+          </h1>
           <div className="flex">
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                   <svg
-                    className="w-4 text-gray-600"
+                    className="w-4 text-blue-600"
                     stroke="currentColor"
-                    strokeWidth="2"
+                    strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     viewBox="0 0 24 24"
@@ -36,9 +39,9 @@ const Steps = () => {
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                   <svg
-                    className="w-4 text-gray-600"
+                    className="w-4 text-blue-600"
                     stroke="currentColor"
-                    strokeWidth="2"
+                    strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     viewBox="0 0 24 24"
@@ -63,9 +66,9 @@ const Steps = () => {
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                   <svg
-                    className="w-4 text-gray-600"
+                    className="w-4 text-blue-600"
                     stroke="currentColor"
-                    strokeWidth="2"
+                    strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     viewBox="0 0 24 24"
@@ -90,9 +93,9 @@ const Steps = () => {
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                   <svg
-                    className="w-4 text-gray-600"
+                    className="w-4 text-blue-600"
                     stroke="currentColor"
-                    strokeWidth="2"
+                    strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     viewBox="0 0 24 24"
@@ -115,10 +118,10 @@ const Steps = () => {
             <div className="flex flex-col items-center mr-4">
               <div>
                 <div className="flex items-center justify-center w-10 h-10 border rounded-full">
-                  <svg className="w-6 text-gray-600" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 text-blue-600" stroke="currentColor" viewBox="0 0 24 24">
                     <polyline
                       fill="none"
-                      strokeWidth="2"
+                      strokeWidth="4"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeMiterlimit="10"
@@ -138,7 +141,7 @@ const Steps = () => {
         </div>
         <div className="relative">
           <StaticImage
-            className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
+            className="inset-0 object-cover object-bottom w-full rounded-2xl shadow-lg h-96 lg:absolute lg:h-full"
             src="../images/board.png"
             alt=""
           />
