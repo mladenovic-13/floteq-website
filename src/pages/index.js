@@ -15,8 +15,8 @@ const Index = () => (
     <MainFeatures />
     <Steps />
     <Pricing />
-    <FreePilot />
     <Team />
+    <FreePilot />
   </Layout>
 );
 
