@@ -2,7 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const HeroImg = () => {
   return (
-    <div className="hidden relative md:flex flex-col-reverse py-16 md:my-10 lg:pt-0 lg:flex-col lg:pb-0">
+    <div className="hidden relative md:flex flex-col-reverse py-16  lg:pt-0 lg:flex-col md:pb-0">
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
         <StaticImage
           style={{ clipPath: 'polygon(15% 0, 100% 0, 100% 100%, 5% 100%)' }}
@@ -12,8 +12,8 @@ const HeroImg = () => {
         />
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
-        <div className="mb-16 lg:my-8 lg:max-w-lg lg:pr-5">
-          <h2 className="mb-5 font-sans text-5xl font-bold tracking-tight text-gray-900 sm:leading-none">
+        <div className="mb-16 lg:my-4 lg:max-w-lg lg:pr-5">
+          <h2 className="mb-2 font-sans text-5xl font-bold tracking-tight text-gray-900 sm:leading-none">
             GIVE YOUR VENUE THE BOOST IT NEEDS
           </h2>
 
