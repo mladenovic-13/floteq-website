@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const IotBenefits = () => {
   return (
@@ -9,7 +10,7 @@ const IotBenefits = () => {
             <svg
               viewBox="0 0 52 24"
               fill="currentColor"
-              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+              className=" text-primary-darker absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
             >
               <defs>
                 <pattern
@@ -114,17 +115,20 @@ const IotBenefits = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-5">
-          <img
+          <StaticImage
+            imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-56 col-span-2 rounded shadow-lg"
             src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <img
+          <StaticImage
+            imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-48 rounded shadow-lg"
             src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <img
+          <StaticImage
+            imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-48 rounded shadow-lg"
             src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""

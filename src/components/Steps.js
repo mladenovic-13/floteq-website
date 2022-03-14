@@ -142,6 +142,7 @@ const Steps = () => {
         </div>
         <div className="order-last md:order-first relative">
           <StaticImage
+            imgStyle={{ borderRadius: '3%' }}
             className="inset-0 object-cover object-bottom w-full rounded-md shadow-lg h-96 lg:absolute lg:h-full"
             src="../images/board.jpg"
             alt=""
