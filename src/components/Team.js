@@ -15,7 +15,7 @@ function Team() {
               <div className="rounded-full">
                 <StaticImage
                   alt="profil"
-                  src="../images/Miles.webp"
+                  src="../images/miles.webp"
                   className="rounded-full mx-auto object-cover  h-40 w-40 "
                 />
               </div>
@@ -94,7 +94,7 @@ function Team() {
             <a href="#" className="block relative">
               <StaticImage
                 alt="profil"
-                src="../images/Diana.webp"
+                src="../images/diana.webp"
                 className="mx-auto object-cover rounded-full h-40 w-40 "
               />
             </a>
@@ -172,7 +172,7 @@ function Team() {
             <a href="#" className="block relative">
               <StaticImage
                 alt="profil"
-                src="../images/David.webp"
+                src="../images/david.webp"
                 className="mx-auto object-cover rounded-full h-40 w-40 "
               />
             </a>
