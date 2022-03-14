@@ -117,19 +117,19 @@ const IotBenefits = () => {
         <div className="grid grid-cols-2 gap-5">
           <StaticImage
             imgStyle={{ borderRadius: '4%' }}
-            className="object-cover w-full h-56 col-span-2 rounded shadow-lg"
+            className="object-cover w-full h-56 col-span-2 rounded "
             src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
           <StaticImage
             imgStyle={{ borderRadius: '4%' }}
-            className="object-cover w-full h-48 rounded shadow-lg"
+            className="object-cover w-full h-48 rounded "
             src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
           <StaticImage
             imgStyle={{ borderRadius: '4%' }}
-            className="object-cover w-full h-48 rounded shadow-lg"
+            className="object-cover w-full h-48 rounded "
             src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />

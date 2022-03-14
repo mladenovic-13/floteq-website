@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { StaticImage } from 'gatsby-plugin-image';
-import Button from '../Button';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,12 +45,12 @@ function Nav() {
             </div>
           </div>
           <div>
-            <Button
-              className="bg-primary-lighter hover:bg-primary-darker hidden md:block"
-              size="default"
+            <button
+              type="button"
+              className="bg-primary-darker inline-flex items-center justify-center px-5 py-2 rounded-lg text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             >
               Client Login
-            </Button>
+            </button>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button

@@ -2,7 +2,7 @@ import React from 'react';
 const MainFeatures = () => {
   return (
     <section>
-      <div className="container px-6 py-10 mx-auto">
+      <div className="container px-6 py-16 mx-auto">
         <h1 className="text-center text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
           Simple and easy
           <br /> this is how we do it

@@ -33,7 +33,7 @@ const HeroImg = () => {
               />
             </svg>
 
-            <span className="mx-4 text-gray-800">Reduce 6-12% average draught beer loss</span>
+            <span className="mx-4 text-gray-700">Reduce 6-12% average draught beer loss</span>
           </div>
 
           <div className="mb-1 text-2xl flex items-center">
@@ -50,7 +50,7 @@ const HeroImg = () => {
               />
             </svg>
 
-            <span className="mx-4 text-gray-800 ">Eliminate Gassy, Flat, Foamy or warm bee</span>
+            <span className="mx-4 text-gray-700 ">Eliminate Gassy, Flat, Foamy or warm bee</span>
           </div>
 
           <div className="mb-1 text-2xl flex items-center">
@@ -67,7 +67,7 @@ const HeroImg = () => {
               />
             </svg>
 
-            <span className="mx-4 text-gray-800 ">
+            <span className="mx-4 text-gray-700 ">
               Ensure clean and hygenic lines for your patrons
             </span>
           </div>
@@ -86,7 +86,7 @@ const HeroImg = () => {
               />
             </svg>
 
-            <span className="mx-4 text-gray-800 ">Complete Inventory consumption/revenue</span>
+            <span className="mx-4 text-gray-700 ">Complete Inventory consumption/revenue</span>
           </div>
           <div className="mb-1 text-2xl flex items-center">
             <svg
@@ -102,7 +102,7 @@ const HeroImg = () => {
               />
             </svg>
 
-            <span className="mx-4 text-gray-800 ">
+            <span className="mx-4 text-gray-700 ">
               Alerts for pressure, temperature or cleaning cycles
             </span>
           </div>
@@ -110,7 +110,7 @@ const HeroImg = () => {
           <div className="mt-8  text-2xl flex flex-col md:flex-row items-center">
             <Link
               href="/"
-              className="mx-auto md:mx-0 px-6 py-4 font-medium tracking-wide bg-red-500 hover:bg-red-600 text-white transition duration-200 rounded  focus:shadow-outline focus:outline-none ease-in-out"
+              className="mx-auto md:mx-0 px-6 py-4 font-medium tracking-wide bg-primary-lighter hover:bg-primary-darker  text-white transition duration-200 rounded  focus:shadow-outline focus:outline-none ease-in-out"
             >
               Free Pilot For Your Venue
             </Link>
