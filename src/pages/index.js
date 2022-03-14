@@ -29,36 +29,32 @@ const Index = () => (
     </WrapperDark>
 
     <WrapperLight>
-      <Benefits />
-    </WrapperLight>
-
-    <WrapperDark>
       <IotBenefits />
-    </WrapperDark>
+    </WrapperLight>
 
-    <WrapperLight>
+    <WrapperDark>
       <Places />
-    </WrapperLight>
+    </WrapperDark>
 
-    <WrapperDark>
+    <WrapperLight>
       <Monitoring />
-    </WrapperDark>
+    </WrapperLight>
 
-    <WrapperLight>
+    <WrapperDark>
       <Steps />
-    </WrapperLight>
-
-    <WrapperDark>
-      <Pricing />
     </WrapperDark>
 
     <WrapperLight>
-      <Team />
+      <Pricing />
     </WrapperLight>
 
     <WrapperDark>
-      <FreePilot />
+      <Team />
     </WrapperDark>
+
+    <WrapperLight>
+      <FreePilot />
+    </WrapperLight>
   </Layout>
 );
 

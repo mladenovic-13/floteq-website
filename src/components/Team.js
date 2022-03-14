@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 function Team() {
   return (
-    <div className="p-8 bg-white">
+    <div className="px-6 py-16">
       <p className="text-center text-3xl font-bold text-gray-800 ">Professional team</p>
       <p className="text-center mb-12 text-xl font-normal text-gray-500 ">
         Meat the best team in wolrd

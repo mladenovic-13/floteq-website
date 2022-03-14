@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const Places = () => {
   return (
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+    <div className="pt-8 pb-12 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex order-last md:order-first items-center justify-center -mx-4 lg:pl-8">
           <div className="flex flex-col items-end px-3">
@@ -31,14 +31,13 @@ const Places = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400"></div>
           <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <h2 className="text-center md:text-left max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               Let us handle
               <br className="hidden md:block" />
               your next <span className="inline-block ">event</span>
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
+            <p className="text-center md:text-left text-base text-gray-700 md:text-lg">
               Some text.Some text.Some text.Some text. Some text. Some text. Some text. Some text.
               Some text. Some text. Some text. Some text. Some text. Some text.
             </p>
@@ -47,7 +46,7 @@ const Places = () => {
             <Link
               href="/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200  hover:text-deep-purple-800"
+              className=" inline-flex items-center font-semibold transition-colors duration-200  hover:text-deep-purple-800"
             >
               Learn more
               <svg className="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">

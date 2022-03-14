@@ -47,7 +47,7 @@ function Nav() {
           <div>
             <button
               type="button"
-              className="bg-primary-darker inline-flex items-center justify-center px-5 py-2 rounded-lg text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
             >
               Client Login
             </button>

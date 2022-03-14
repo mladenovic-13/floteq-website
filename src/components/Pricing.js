@@ -3,9 +3,9 @@ const Pricing = () => {
   return (
     <div>
       <section>
-        <div className="container px-6 py-8 mx-auto">
+        <div className="container py-10 px-6 md:py-16 md:mb-6 mx-auto">
           <h2 className="text-4xl text-center font-bold text-gray-800 ">Pricing plans</h2>
-          <div className=" grid gap-6 mt-16 mx-auto sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+          <div className=" grid gap-6 mt-10 md:mt-16 mx-auto sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             <div className="bg-white px-6 py-4 border-0 shadow-lg transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
               <p className="text-lg font-medium text-gray-800 ">Basic</p>
               <h4 className="mt-2 text-4xl font-semibold text-gray-800 ">

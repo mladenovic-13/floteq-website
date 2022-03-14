@@ -15,10 +15,10 @@ const Benefits = () => {
         </div>
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <h2 className="max-w-lg text-center md:text-left mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               Work with us benefits
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
+            <p className="text-base text-center md:text-left text-gray-700 md:text-lg">
               Some text.Some text. Some text. Some text. Some text. Some text. Some text. Some text.{' '}
               Some text.{' '}
             </p>
