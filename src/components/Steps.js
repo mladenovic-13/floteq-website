@@ -1,3 +1,4 @@
+import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const Steps = () => {
@@ -5,7 +6,7 @@ const Steps = () => {
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
         <div className="lg:py-1 lg:pr-16">
-          <h1 className=" md:ml-12 md:mb-6 md:pl-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
+          <h1 className=" md:ml-12 md:mb-6 md:pl-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
             Our Installation Process
           </h1>
           <div className="flex">
@@ -141,8 +142,8 @@ const Steps = () => {
         </div>
         <div className="relative">
           <StaticImage
-            className="inset-0 object-cover object-bottom w-full rounded-2xl shadow-lg h-96 lg:absolute lg:h-full"
-            src="../images/board.png"
+            className="inset-0 object-cover object-bottom w-full rounded-md shadow-lg h-96 lg:absolute lg:h-full"
+            src="../images/board.jpg"
             alt=""
           />
         </div>

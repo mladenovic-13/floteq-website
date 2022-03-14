@@ -1,3 +1,4 @@
+import React from 'react';
 const HeroSimple = () => {
   return (
     <div className="mb-16">

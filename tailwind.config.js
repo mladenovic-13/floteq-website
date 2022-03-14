@@ -1,6 +1,12 @@
 module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  import: true,
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
       colors: {
         primary: {
           lighter: 'hsl(207, 73%, 52%)',

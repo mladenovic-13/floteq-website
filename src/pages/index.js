@@ -7,13 +7,14 @@ import HeroImg from '../components/HeroImg';
 import Pricing from '../components/Pricing';
 import MainFeatures from '../components/MainFeatures';
 import Statistic from '../components/Statistic';
-import SolutionSection from '../components/SolutionSection';
+import Places from '../components/Places';
 
 const Index = () => (
   <Layout>
     <HeroImg />
     <Statistic />
     <MainFeatures />
+    <Places />
     <Steps />
     <Pricing />
     <Team />
