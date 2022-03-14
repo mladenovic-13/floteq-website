@@ -140,7 +140,7 @@ const Steps = () => {
             </div>
           </div>
         </div>
-        <div className="relative">
+        <div className="order-last md:order-first relative">
           <StaticImage
             className="inset-0 object-cover object-bottom w-full rounded-md shadow-lg h-96 lg:absolute lg:h-full"
             src="../images/board.jpg"

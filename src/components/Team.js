@@ -1,9 +1,9 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function Team() {
   return (
-    <div className="p-8 bg-white  rounded-lg shadow">
+    <div className="p-8 bg-white">
       <p className="text-center text-3xl font-bold text-gray-800 ">Professional team</p>
       <p className="text-center mb-12 text-xl font-normal text-gray-500 ">
         Meat the best team in wolrd

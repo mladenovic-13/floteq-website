@@ -8,17 +8,57 @@ import Pricing from '../components/Pricing';
 import MainFeatures from '../components/MainFeatures';
 import Statistic from '../components/Statistic';
 import Places from '../components/Places';
+import Monitoring from '../components/Monitoring';
+import IotBenefits from '../components/IotBenefits';
+import Benefits from '../components/Benefits';
+import WrapperDark from '../components/layout/WraperDark';
+import WrapperLight from '../components/layout/WraperLight';
 
 const Index = () => (
   <Layout>
-    <HeroImg />
-    <Statistic />
-    <MainFeatures />
-    <Places />
-    <Steps />
-    <Pricing />
-    <Team />
-    <FreePilot />
+    <WrapperDark>
+      <HeroImg />
+    </WrapperDark>
+
+    <WrapperLight>
+      <Statistic />
+    </WrapperLight>
+
+    <WrapperDark>
+      <MainFeatures />
+    </WrapperDark>
+
+    <WrapperLight>
+      <Benefits />
+    </WrapperLight>
+
+    <WrapperDark>
+      <IotBenefits />
+    </WrapperDark>
+
+    <WrapperLight>
+      <Places />
+    </WrapperLight>
+
+    <WrapperDark>
+      <Monitoring />
+    </WrapperDark>
+
+    <WrapperLight>
+      <Steps />
+    </WrapperLight>
+
+    <WrapperDark>
+      <Pricing />
+    </WrapperDark>
+
+    <WrapperLight>
+      <Team />
+    </WrapperLight>
+
+    <WrapperDark>
+      <FreePilot />
+    </WrapperDark>
   </Layout>
 );
 

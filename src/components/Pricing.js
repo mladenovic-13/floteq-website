@@ -2,11 +2,11 @@ import React from 'react';
 const Pricing = () => {
   return (
     <div>
-      <section className="bg-white ">
+      <section>
         <div className="container px-6 py-8 mx-auto">
           <h2 className="text-4xl text-center font-bold text-gray-800 ">Pricing plans</h2>
           <div className=" grid gap-6 mt-16 mx-auto sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-            <div className="px-6 py-4 border-0 shadow-lg transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
+            <div className="bg-white px-6 py-4 border-0 shadow-lg transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
               <p className="text-lg font-medium text-gray-800 ">Basic</p>
               <h4 className="mt-2 text-4xl font-semibold text-gray-800 ">
                 $399 <span className="text-base font-normal text-gray-700 ">/ Month</span>
@@ -208,7 +208,7 @@ const Pricing = () => {
               </button>
             </div>
 
-            <div className="border-0 shadow-lg px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
+            <div className="bg-white border-0 shadow-lg px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
               <p className="text-lg font-medium text-gray-800 ">Enterprise</p>
               <h4 className="mt-2 text-4xl font-semibold text-gray-800 ">Custom</h4>
               <p className="text-lg mt-4 text-gray-600">
