@@ -16,7 +16,7 @@ function Nav() {
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <AnchorLink to="#hero">
-            <div className="flex-shrink-0 cursor-pointer">
+            <div className="transition ease-in-out delay-150 flex-shrink-0 cursor-pointer">
               <StaticImage className="h-8 w-32" src="../../images/Logo.png" alt="Workflow" />
             </div>
           </AnchorLink>
