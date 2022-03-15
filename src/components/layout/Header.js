@@ -16,8 +16,12 @@ function Nav() {
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <AnchorLink to="#hero">
-            <div className="transition ease-in-out delay-150 flex-shrink-0 cursor-pointer">
-              <StaticImage className="h-8 w-32" src="../../images/Logo.png" alt="Workflow" />
+            <div className="flex-shrink-0 cursor-pointer">
+              <StaticImage
+                className="h-8 w-32 transition ease-in-out delay-150 hover:scale-110 duration-200"
+                src="../../images/Logo.png"
+                alt="Workflow"
+              />
             </div>
           </AnchorLink>
           <div className="flex items-center">
@@ -56,7 +60,7 @@ function Nav() {
           <div>
             <a
               href="https://floteq.sitelantern.com/console/"
-              className="cursor-pointer bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white font-light"
+              className="transition ease-in-out delay-150 hover:scale-110 duration-200 cursor-pointer bg-primary-lighter hover:bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white font-light"
             >
               Client Login
             </a>

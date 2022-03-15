@@ -30,7 +30,7 @@ const Statistic = () => {
         <div className="text-center md:border-r">
           <h6 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
             <span>
-              <CountUp start={0} end={3} duration={0.2} delay={0.6} />
+              <CountUp start={0} end={3} duration={0.3} delay={0.6} />
             </span>{' '}
           </h6>
           <p className="text-sm font-medium tracking-widest text-gray-800 uppercase lg:text-base">
@@ -40,7 +40,7 @@ const Statistic = () => {
         <div className="text-center">
           <h6 className="text-4xl font-bold lg:text-5xl xl:text-6xl">
             <span>
-              <CountUp start={0} end={63} duration={0.5} delay={0.8} />
+              <CountUp start={0} end={63} duration={0.8} delay={0.8} />
             </span>{' '}
             %
           </h6>

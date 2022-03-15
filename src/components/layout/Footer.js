@@ -107,7 +107,8 @@ export default function Footer() {
               className="text-gray-600 hover:text-gray-900  transition-colors duration-200"
             ></a>
           </div>
-          <div className="text-center pt-10 sm:pt-12 font-light flex items-center justify-center">
+          <div className="text-center pt-10 sm:pt-12 font-light flex flex-col items-center justify-center">
+            <h1 className="text-2xl mb-2">Newsletter</h1>
             <form className="flex flex-col md:flex-row w-3/4 md:w-full max-w-sm md:space-x-3 space-y-3 md:space-y-0 justify-center">
               <div className=" relative ">
                 <input

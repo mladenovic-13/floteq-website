@@ -10,58 +10,59 @@ import Statistic from '../components/Statistic';
 import Places from '../components/Places';
 import Monitoring from '../components/Monitoring';
 import IotBenefits from '../components/IotBenefits';
-import Benefits from '../components/Benefits';
 import WrapperDark from '../components/layout/WraperDark';
 import WrapperLight from '../components/layout/WraperLight';
 import Contact from '../components/about/Contact';
 
-const Index = () => (
-  <Layout>
-    <WrapperDark>
-      <HeroImg />
-    </WrapperDark>
+const Index = () => {
+  return (
+    <Layout>
+      <WrapperDark>
+        <HeroImg />
+      </WrapperDark>
 
-    <WrapperLight>
-      <Statistic />
-    </WrapperLight>
+      <WrapperLight>
+        <Statistic />
+      </WrapperLight>
 
-    <WrapperDark>
-      <MainFeatures />
-    </WrapperDark>
+      <WrapperDark>
+        <MainFeatures />
+      </WrapperDark>
 
-    <WrapperLight>
-      <IotBenefits />
-    </WrapperLight>
+      <WrapperLight>
+        <IotBenefits />
+      </WrapperLight>
 
-    <WrapperDark>
-      <Places />
-    </WrapperDark>
+      <WrapperDark>
+        <Places />
+      </WrapperDark>
 
-    <WrapperLight>
-      <Monitoring />
-    </WrapperLight>
+      <WrapperLight>
+        <Monitoring />
+      </WrapperLight>
 
-    <WrapperDark>
-      <Steps />
-    </WrapperDark>
+      <WrapperDark>
+        <Steps />
+      </WrapperDark>
 
-    <WrapperLight>
-      <Pricing />
-    </WrapperLight>
+      <WrapperLight>
+        <Pricing />
+      </WrapperLight>
 
-    <WrapperDark>
-      <Team />
-    </WrapperDark>
+      <WrapperDark>
+        <Team />
+      </WrapperDark>
 
-    <WrapperLight>
-      <FreePilot />
-    </WrapperLight>
+      <WrapperLight>
+        <FreePilot />
+      </WrapperLight>
 
-    {/* ADD PARTNERS */}
-    <WrapperDark>
-      <Contact />
-    </WrapperDark>
-  </Layout>
-);
+      {/* ADD PARTNERS */}
+      <WrapperDark>
+        <Contact />
+      </WrapperDark>
+    </Layout>
+  );
+};
 
 export default Index;
