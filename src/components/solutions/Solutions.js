@@ -1,25 +1,22 @@
 import React from 'react';
-import Partners from '../Partners';
 
 const Solutions = () => {
   return (
-    <section className="">
-      <Partners />
+    <section id="hero" className="">
       <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
         <div>
-          <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl ">
-            Aliquip definiebas ad est
-          </h2>
-          <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">
-            Quando cetero his ne, eum admodum sapientem ut.
-          </p>
+          <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl ">SOLUTIONS</h2>
+          <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">KNOW MORE. DO MORE.</p>
         </div>
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
           <div>
-            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">Ad vix debet docendi</h3>
+            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
+              SOLUTIONS DATA MANAGEMENT
+              <br /> AND ANALYTICS
+            </h3>
             <p className="mt-3 text-lg ">
-              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut,
-              persius eripuit quo id. Sit te euismod tacimates.
+              Between 8-12% of draught beer is wasted everyday, across pubs, bars, clubs and
+              stadiums. Waste is a part of cost. Not anymore!
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">
@@ -42,10 +39,10 @@ const Solutions = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 ">Per ei quaeque sensibus</h4>
+                  <h4 className="text-lg font-medium leading-6 ">TECHNOLOGY = INTELLIGENCE</h4>
                   <p className="mt-2 ">
-                    Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore
-                    facete mea ei. Pro id apeirian dignissim.
+                    Floteq brings you a revolutionary new ability to monitor your bar, pub, club or
+                    stadium at your fingertips.
                   </p>
                 </div>
               </div>
@@ -69,45 +66,17 @@ const Solutions = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 ">Cu imperdiet posidonium sed</h4>
+                  <h4 className="text-lg font-medium leading-6 ">DATA = INSIGHT</h4>
                   <p className="mt-2 ">
-                    Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu
-                    nec. Nec ex maluisset inciderint, ex quis.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-md  ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-7 h-7"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 ">
-                    Nulla omittam sadipscing mel ne
-                  </h4>
-                  <p className="mt-2 ">
-                    At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut
-                    vix. Ut eos iudico quando soleat, nam modus.
+                    Monitor and control your brand integrity and gain consumer insights in real time
+                    across one or multiple venues.Monitor your revenue, temperature, pressure,
+                    cleaning cycles, stocktake and so much more.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div aria-hidden="true" className="mt-10 lg:mt-0">
+          <div ariaHidden="true" className="mt-10 lg:mt-0">
             <img
               src="https://source.unsplash.com/random/360x480"
               alt=""
@@ -119,11 +88,11 @@ const Solutions = () => {
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
-                Eam nibh gloriatur ex
+                AUTOMATED DATA INTEGRATION MONITOR
               </h3>
               <p className="mt-3 text-lg ">
-                Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus.
-                Ea his tale nibh dissentias, mei exerci tamquam euripidis cu.
+                Whether you are a cellar man, venue manager or the financial controller, data on
+                demand has the ability to transform your business.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -146,10 +115,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 ">Cibo augue offendit has ad</h4>
+                    <h4 className="text-lg font-medium leading-6 ">MANAGE</h4>
                     <p className="mt-2 ">
-                      An per velit appellantur, ut utinam minimum nominavi sit, odio nostro habemus
-                      ne nec. Ne sonet regione contentiones est.
+                      Know exactly how your brands are consumed, @ what temperature, and @ the exact
+                      time.
                     </p>
                   </div>
                 </div>
@@ -173,12 +142,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 ">
-                      At eum ferri luptatum lobortis
-                    </h4>
+                    <h4 className="text-lg font-medium leading-6 ">CONTROL</h4>
                     <p className="mt-2 ">
-                      Te per quidam maiorum ocurreret, etiam delicatissimi usu ad. Ne has quod
-                      periculis. Te sit primis iisque efficiantur.
+                      Never serve a flat, warm or gassy pint again. Manage your staff, stock or
+                      power consumption, all in one.
                     </p>
                   </div>
                 </div>
@@ -202,12 +169,11 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 ">
-                      Dicunt verterem evertitur eu sea
-                    </h4>
+                    <h4 className="text-lg font-medium leading-6 ">POWER IN YOUR HANDS</h4>
                     <p className="mt-2 ">
-                      Audire principes rationibus eam an, autem nominavi luptatum per te. Sumo
-                      fabulas vim eu, sonet saperet eleifend ut vix.
+                      With a fully open API and reporting on regular time intervals or real time,
+                      your data is fully automated and can integrate into any cloud based Point of
+                      Sale or data warehouse.
                     </p>
                   </div>
                 </div>
@@ -226,10 +192,13 @@ const Solutions = () => {
       <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
           <div>
-            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">Ad vix debet docendi</h3>
+            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
+              CUSTOM HARDWARE AND SOFTWARE
+            </h3>
             <p className="mt-3 text-lg ">
-              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut,
-              persius eripuit quo id. Sit te euismod tacimates.
+              Whether you are managing a single location, multiple locations and bars, or large
+              stadiums and halls, your data is safe, secure and meaningful every time you open the
+              dashboard.
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">
@@ -252,10 +221,10 @@ const Solutions = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 ">Per ei quaeque sensibus</h4>
+                  <h4 className="text-lg font-medium leading-6 ">ACCESSIBLE FROM EVERYWHERE</h4>
                   <p className="mt-2 ">
-                    Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore
-                    facete mea ei. Pro id apeirian dignissim.
+                    Know in real time if you are meeting your KPIs, your daily or hourly targets,
+                    which brands are selling well and why.
                   </p>
                 </div>
               </div>
@@ -279,45 +248,16 @@ const Solutions = () => {
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 ">Cu imperdiet posidonium sed</h4>
+                  <h4 className="text-lg font-medium leading-6 ">DATA IS THERE</h4>
                   <p className="mt-2 ">
-                    Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu
-                    nec. Nec ex maluisset inciderint, ex quis.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center w-12 h-12 rounded-md  ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      className="w-7 h-7"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg font-medium leading-6 ">
-                    Nulla omittam sadipscing mel ne
-                  </h4>
-                  <p className="mt-2 ">
-                    At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut
-                    vix. Ut eos iudico quando soleat, nam modus.
+                    Watch your revenue grow and your costs disappear. Floteq's elegant business
+                    analysis tool allows you to make the right decisions instantly!
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div aria-hidden="true" className="mt-10 lg:mt-0">
+          <div ariaHidden="true" className="mt-10 lg:mt-0">
             <img
               src="https://source.unsplash.com/random/360x480"
               alt=""
@@ -329,11 +269,12 @@ const Solutions = () => {
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
-                Eam nibh gloriatur ex
+                RUGGEDISED HARDWARE
+                <br />
+                BEAUTIFUL SOFTWARE
               </h3>
               <p className="mt-3 text-lg ">
-                Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus.
-                Ea his tale nibh dissentias, mei exerci tamquam euripidis cu.
+                You are great at running your venue. Leave the tech stuff to us.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -356,10 +297,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 ">Cibo augue offendit has ad</h4>
+                    <h4 className="text-lg font-medium leading-6 ">HARDWARE</h4>
                     <p className="mt-2 ">
-                      An per velit appellantur, ut utinam minimum nominavi sit, odio nostro habemus
-                      ne nec. Ne sonet regione contentiones est.
+                      Our rugged hardware is designed to withstand tough conditions, from your bar
+                      staff to freezing cold cellars
                     </p>
                   </div>
                 </div>
@@ -383,41 +324,10 @@ const Solutions = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 ">
-                      At eum ferri luptatum lobortis
-                    </h4>
+                    <h4 className="text-lg font-medium leading-6 ">SOFTWARE</h4>
                     <p className="mt-2 ">
-                      Te per quidam maiorum ocurreret, etiam delicatissimi usu ad. Ne has quod
-                      periculis. Te sit primis iisque efficiantur.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md  ">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        className="w-7 h-7"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        ></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="text-lg font-medium leading-6 ">
-                      Dicunt verterem evertitur eu sea
-                    </h4>
-                    <p className="mt-2 ">
-                      Audire principes rationibus eam an, autem nominavi luptatum per te. Sumo
-                      fabulas vim eu, sonet saperet eleifend ut vix.
+                      Our software is designed with you in mind. It will plug and play into any
+                      cloud enabled POS and work with any data feed
                     </p>
                   </div>
                 </div>

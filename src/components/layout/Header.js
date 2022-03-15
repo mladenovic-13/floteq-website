@@ -15,7 +15,7 @@ function Nav() {
     <nav className="bg-white shadow w-full fixed top-0 overflow-hidden z-20">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
-          <AnchorLink to="#hero">
+          <Link to="/">
             <div className="flex-shrink-0 cursor-pointer">
               <StaticImage
                 className="h-8 w-32 transition ease-in-out delay-150 hover:scale-110 duration-200"
@@ -23,7 +23,7 @@ function Nav() {
                 alt="Workflow"
               />
             </div>
-          </AnchorLink>
+          </Link>
           <div className="flex items-center">
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">

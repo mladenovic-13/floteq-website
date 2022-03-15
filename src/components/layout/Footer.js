@@ -11,6 +11,14 @@ export default function Footer() {
             <li className="my-2">
               <Link
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
+                to="/"
+              >
+                Home
+              </Link>
+            </li>
+            <li className="my-2">
+              <Link
+                className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
                 to="/solutions"
               >
                 Solutions
