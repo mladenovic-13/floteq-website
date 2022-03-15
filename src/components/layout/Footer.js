@@ -1,3 +1,5 @@
+import { Link } from 'gatsby';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 import React from 'react';
 
 export default function Footer() {
@@ -7,36 +9,36 @@ export default function Footer() {
         <div className="max-w-screen-xl mx-auto px-4">
           <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
             <li className="my-2">
-              <a
+              <Link
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
-                href="#"
+                to="/solutions"
               >
                 Solutions
-              </a>
+              </Link>
             </li>
             <li className="my-2">
-              <a
+              <Link
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
-                href="#"
+                to="/about"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li className="my-2">
-              <a
+              <AnchorLink
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
-                href="#"
+                to="#pricing"
               >
                 Pricing
-              </a>
+              </AnchorLink>
             </li>
             <li className="my-2">
-              <a
+              <AnchorLink
+                to="#contact"
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
-                href="#"
               >
                 Contact
-              </a>
+              </AnchorLink>
             </li>
           </ul>
           <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
