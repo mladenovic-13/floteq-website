@@ -4,7 +4,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     'gatsby-plugin-postcss',
-    'gatsby-plugin-anchor-links',
+    {
+      resolve: 'gatsby-plugin-anchor-links',
+      options: {
+        offset: -30,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -6,13 +6,20 @@ import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const handleClick = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+
   return (
     <nav className="bg-white shadow w-full fixed top-0 overflow-hidden z-20">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
-          <div className="flex-shrink-0">
-            <StaticImage className="h-8 w-32" src="../../images/Logo.png" alt="Workflow" />
-          </div>
+          <AnchorLink to="#hero">
+            <div className="flex-shrink-0 cursor-pointer">
+              <StaticImage className="h-8 w-32" src="../../images/Logo.png" alt="Workflow" />
+            </div>
+          </AnchorLink>
           <div className="flex items-center">
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
@@ -120,29 +127,31 @@ function Nav() {
                 Solutions
               </Link>
 
-              <a
-                href="#"
+              <AnchorLink
+                onAnchorLinkClick={() => setIsOpen(!isOpen)}
+                to="#pricing"
                 className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Pricing
-              </a>
+              </AnchorLink>
 
-              <a
-                href="#"
+              <Link
+                to="/about"
                 className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
               >
                 About Us
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <AnchorLink
+                onAnchorLinkClick={() => setIsOpen(!isOpen)}
+                to="#contact"
                 className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Contact
-              </a>
+              </AnchorLink>
               <a
                 href="https://floteq.sitelantern.com/console/"
-                className="bg-primary-darker uppercase mx-auto lg:mx-0  text-white font-bold rounded-full my-6 py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-200 ease-in-out"
+                className="my-6 bg-primary-darker uppercase mx-auto lg:mx-0  text-white font-bold rounded-full py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline"
               >
                 Client Login
               </a>
