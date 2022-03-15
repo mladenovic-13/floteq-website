@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const HeroImg = () => {
   return (
-    <div className="relative md:flex flex-col-reverse py-6 md:py-16  lg:pt-0 lg:flex-col md:pb-0">
+    <div className="relative md:flex md:-mt-2 md:pt-0 flex-col-reverse py-6 md:py-16  lg:pt-0 lg:flex-col md:pb-0">
       <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
         <StaticImage
           style={{ clipPath: 'polygon(15% 0, 100% 0, 100% 100%, 5% 100%)' }}

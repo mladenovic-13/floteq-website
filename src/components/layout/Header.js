@@ -1,56 +1,58 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 import { StaticImage } from 'gatsby-plugin-image';
+import { Link } from 'gatsby';
+import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="bg-white shadow w-full fixed top-0 overflow-hidden z-20">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-14">
           <div className="flex-shrink-0">
             <StaticImage className="h-8 w-32" src="../../images/Logo.png" alt="Workflow" />
           </div>
           <div className="flex items-center">
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a
-                  href="#"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-medium"
+                <Link
+                  to="/solutions"
+                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Solutions
-                </a>
+                </Link>
 
-                <a
-                  href="#"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-medium"
+                <AnchorLink
+                  to="#pricing"
+                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Pricing
-                </a>
+                </AnchorLink>
 
-                <a
-                  href="#"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-medium"
+                <Link
+                  to="/about"
+                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
                 >
                   About Us
-                </a>
+                </Link>
 
-                <a
-                  href="#"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-medium"
+                <AnchorLink
+                  to="#contact"
+                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Contact
-                </a>
+                </AnchorLink>
               </div>
             </div>
           </div>
           <div>
-            <button
-              type="button"
-              className="bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            <a
+              href="https://floteq.sitelantern.com/console/"
+              className="cursor-pointer bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white font-light"
             >
               Client Login
-            </button>
+            </a>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button
@@ -111,12 +113,12 @@ function Nav() {
         {(ref) => (
           <div className="md:hidden" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a
-                href="#"
+              <Link
+                to="/solutions"
                 className=" text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Solutions
-              </a>
+              </Link>
 
               <a
                 href="#"
@@ -138,9 +140,12 @@ function Nav() {
               >
                 Contact
               </a>
-              <button className="bg-primary-darker uppercase mx-auto lg:mx-0  text-white font-bold rounded-full my-6 py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-200 ease-in-out">
+              <a
+                href="https://floteq.sitelantern.com/console/"
+                className="bg-primary-darker uppercase mx-auto lg:mx-0  text-white font-bold rounded-full my-6 py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-200 ease-in-out"
+              >
                 Client Login
-              </button>
+              </a>
             </div>
           </div>
         )}

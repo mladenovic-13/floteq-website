@@ -13,6 +13,7 @@ import IotBenefits from '../components/IotBenefits';
 import Benefits from '../components/Benefits';
 import WrapperDark from '../components/layout/WraperDark';
 import WrapperLight from '../components/layout/WraperLight';
+import Contact from '../components/about/Contact';
 
 const Index = () => (
   <Layout>
@@ -55,6 +56,11 @@ const Index = () => (
     <WrapperLight>
       <FreePilot />
     </WrapperLight>
+
+    {/* ADD PARTNERS */}
+    <WrapperDark>
+      <Contact />
+    </WrapperDark>
   </Layout>
 );
 
