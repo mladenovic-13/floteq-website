@@ -39,9 +39,7 @@ export default function Contact() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <p>
-                Sindjeliceva 40, Vracar <br /> Belgrade, 11000, Serbia
-              </p>
+              <p>Sindjeliceva 40, Vracar Belgrade, 11000, Serbia</p>
             </p>
 
             <p className="flex items-center">
