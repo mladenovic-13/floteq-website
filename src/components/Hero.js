@@ -17,7 +17,7 @@ const Hero = () => {
       }}
       className="md:-mr-14"
     >
-      <div className="flex flex-col mx-auto py-16">
+      <div className="py-8">
         <Cta />
         <Statistic />
       </div>

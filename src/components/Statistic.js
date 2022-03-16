@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const Statistic = () => {
   return (
-    <div className="bg-black rounded bg-opacity-10 py-8 xsm:py-16 px-4 md:my-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
+    <div className="mb=4 bg-black rounded bg-opacity-10 py-8 xsm:py-16 px-4 md:my-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
       <div className="grid grid-cols-2 md:grid-cols-4 md:grid-col">
         <div className="mb-8 md:mb-6 text-center md:border-r">
           <h6 className="text-white text-4xl font-bold lg:text-5xl xl:text-6xl">
