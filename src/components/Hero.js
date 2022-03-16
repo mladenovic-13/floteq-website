@@ -1,5 +1,7 @@
 import React from 'react';
-import BackgroundImage from '../images/hero3.jpeg';
+import BackgroundImage from '../images/herobeer2.jpg';
+import Cta from './Cta';
+import Statistic from './Statistic';
 
 const Hero = () => {
   return (
@@ -7,27 +9,17 @@ const Hero = () => {
       style={{
         backgroundImage: `url(${BackgroundImage})`,
         position: 'relative',
-        backgroundSize: 'cover',
         backgroundPosition: 'center',
+        backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         height: '100vh',
-        marginTop: '-56px',
+        maxWidth: '100%',
       }}
-      className="-mt-14"
+      className="md:-mr-14"
     >
-      <div className="absolute mx-auto mt-28 md:mt-36 md:ml-32 lg:mt-40 lg:ml-48">
-        <h1
-          style={{ clipPath: 'polygon(4% 0, 100% 0%, 96% 100%, 0% 100%)' }}
-          className="border-2 px-3 py-2 md:py-4 md:px-10 mb-8 italic font-extrabold uppercase text-center text-blue-900 text-3xl md:text-5xl bg-white "
-        >
-          we love your beer
-        </h1>
-        <h1
-          style={{ clipPath: 'polygon(4% 0, 100% 0%, 96% 100%, 0% 100%)' }}
-          className="border-2 px-3   py-2 md:py-4 md:px-10 italic font-extrabold uppercase text-center text-blue-900 text-3xl md:text-5xl bg-white "
-        >
-          as much as you do
-        </h1>
+      <div className="flex flex-col mx-auto py-16">
+        <Cta />
+        <Statistic />
       </div>
     </div>
   );

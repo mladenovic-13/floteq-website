@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from './Footer';
-import Header from './Header';
+import HeaderBlack from './HeaderBlack';
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
-      <main className="mt-12 md:mt-16 text-gray-900">{children}</main>
+      <HeaderBlack />
+      <main className="w-full text-gray-900">{children}</main>
       <Footer />
     </>
   );

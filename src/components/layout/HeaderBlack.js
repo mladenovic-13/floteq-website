@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import { AnchorLink } from 'gatsby-plugin-anchor-links';
 
-function Nav() {
+function NavBlack() {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     document.body.scrollTop = 0;
@@ -12,14 +12,14 @@ function Nav() {
   };
 
   return (
-    <nav className="bg-white shadow w-full fixed top-0 overflow-hidden z-20">
+    <nav className="bg-black  bg-opacity-80 shadow w-full fixed top-0 overflow-hidden z-20">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <Link to="/">
             <div className="flex-shrink-0 cursor-pointer">
               <StaticImage
                 className="h-8 w-32 transition ease-in-out delay-150 hover:scale-110 duration-200"
-                src="../../images/Logo.png"
+                src="../../images/logowhite.png"
                 alt="Workflow"
               />
             </div>
@@ -29,28 +29,28 @@ function Nav() {
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
                   to="/solutions"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
+                  className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Solutions
                 </Link>
 
                 <AnchorLink
                   to="#pricing"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
+                  className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Pricing
                 </AnchorLink>
 
                 <Link
                   to="/about"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
+                  className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-xl font-light"
                 >
                   About Us
                 </Link>
 
                 <AnchorLink
                   to="#contact"
-                  className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
+                  className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Contact
                 </AnchorLink>
@@ -60,7 +60,7 @@ function Nav() {
           <div>
             <a
               href="https://floteq.sitelantern.com/console/"
-              className="transition ease-in-out delay-150 hover:scale-110 duration-200 cursor-pointer bg-primary-lighter hover:bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white font-light"
+              className="uppercase  transition ease-in-out delay-150 hover:scale-110 duration-200 cursor-pointer text-black bg-white bg-opacity-90 hidden md:inline-flex items-center justify-center px-5 py-2 rounded-md   focus:outline-none focus:ring-2 focus:ring-offset-2  font-light"
             >
               Client Login
             </a>
@@ -69,7 +69,7 @@ function Nav() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="bg-primary-darker inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-primary-darker focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="bg-white bg-opacity-70 inline-flex items-center justify-center p-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -123,10 +123,10 @@ function Nav() {
       >
         {(ref) => (
           <div className="md:hidden" id="mobile-menu">
-            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div ref={ref} className="px-2 pb-8 space-y-1 sm:px-3">
               <Link
                 to="/solutions"
-                className=" text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
+                className=" text-white block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Solutions
               </Link>
@@ -134,14 +134,14 @@ function Nav() {
               <AnchorLink
                 onAnchorLinkClick={() => setIsOpen(!isOpen)}
                 to="#pricing"
-                className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
+                className="text-white block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Pricing
               </AnchorLink>
 
               <Link
                 to="/about"
-                className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
+                className="text-white block px-3 py-2 rounded-md text-lg font-medium"
               >
                 About Us
               </Link>
@@ -149,16 +149,18 @@ function Nav() {
               <AnchorLink
                 onAnchorLinkClick={() => setIsOpen(!isOpen)}
                 to="#contact"
-                className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
+                className="text-white block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Contact
               </AnchorLink>
-              <a
-                href="https://floteq.sitelantern.com/console/"
-                className="my-6 bg-primary-darker uppercase mx-auto lg:mx-0  text-white font-bold rounded-full py-2 px-6 shadow-lg focus:outline-none focus:shadow-outline"
-              >
-                Client Login
-              </a>
+              <div>
+                <a
+                  href="https://floteq.sitelantern.com/console/"
+                  className="uppercase  lg:mx-0  bg-white bg-opacity-90  text-black font-bold rounded-full py-3 px-6 shadow-lg focus:outline-none focus:shadow-outline"
+                >
+                  Client Login
+                </a>
+              </div>
             </div>
           </div>
         )}
@@ -167,4 +169,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default NavBlack;

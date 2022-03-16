@@ -14,6 +14,9 @@ module.exports = {
           darker: 'hsl(207, 73%, 44%)',
         },
       },
+      screens: {
+        xsm: '380px',
+      },
     },
   },
   variants: {},
