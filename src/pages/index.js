@@ -13,6 +13,7 @@ import IotBenefits from '../components/IotBenefits';
 import WrapperDark from '../components/layout/WraperDark';
 import WrapperLight from '../components/layout/WraperLight';
 import Contact from '../components/about/Contact';
+import Hero from '../components/Hero';
 
 const Index = () => {
   return (

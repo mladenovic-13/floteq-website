@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 const Solutions = () => {
@@ -76,9 +77,10 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div ariaHidden="true" className="mt-10 lg:mt-0">
-            <img
-              src="https://source.unsplash.com/random/360x480"
+          <div className="mt-10 lg:mt-0">
+            <StaticImage
+              height={560}
+              src="../../images/solution.jpeg"
               alt=""
               className="mx-auto rounded-lg shadow-lg "
             />
@@ -180,8 +182,8 @@ const Solutions = () => {
               </div>
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-              <img
-                src="https://source.unsplash.com/random/361x481"
+              <StaticImage
+                src="../../images/solution2.jpeg"
                 alt=""
                 className="mx-auto rounded-lg shadow-lg "
               />
@@ -258,8 +260,9 @@ const Solutions = () => {
             </div>
           </div>
           <div ariaHidden="true" className="mt-10 lg:mt-0">
-            <img
-              src="https://source.unsplash.com/random/360x480"
+            <StaticImage
+              height={380}
+              src="../../images/solution3.jpeg"
               alt=""
               className="mx-auto rounded-lg shadow-lg "
             />
@@ -334,8 +337,9 @@ const Solutions = () => {
               </div>
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-              <img
-                src="https://source.unsplash.com/random/361x481"
+              <StaticImage
+                height={400}
+                src="../../images/solution4.jpeg"
                 alt=""
                 className="mx-auto rounded-lg shadow-lg "
               />

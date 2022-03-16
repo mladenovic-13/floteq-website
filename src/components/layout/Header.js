@@ -12,10 +12,10 @@ function Nav() {
   };
 
   return (
-    <nav className="bg-white shadow w-full fixed top-0 overflow-hidden z-20">
+    <nav className="bg-white shadow w-full fixed top-0 z-20 mb-0">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
-          <Link to="/index">
+          <Link to="/">
             <div className="flex-shrink-0 cursor-pointer">
               <StaticImage
                 className="h-8 w-32 transition ease-in-out delay-150 hover:scale-110 duration-200"
