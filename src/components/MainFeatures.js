@@ -3,7 +3,7 @@ import React from 'react';
 const MainFeatures = () => {
   return (
     <section>
-      <div className="container px-6 py-8 md:py-16 mx-auto">
+      <div className="container px-6 py-8 md:py-0 mx-auto">
         <h1 className=" text-center text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
           Simple and easy
           <br /> this is how we do it
@@ -21,7 +21,7 @@ const MainFeatures = () => {
             </p>
 
             <Link
-              to="/solutions"
+              to="/solutions#data"
               className="hover:scale-110 inline-flex p-2 border-blue-600 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full hover:underline hover:text-blue-600"
             >
               <svg
@@ -52,7 +52,7 @@ const MainFeatures = () => {
             </p>
 
             <Link
-              to="/solutions"
+              to="/solutions#autoData"
               className="hover:scale-110 inline-flex p-2 border-blue-600 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full   hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg
@@ -83,7 +83,7 @@ const MainFeatures = () => {
             </p>
 
             <Link
-              to="/solutions"
+              to="/solutions#chs"
               className="hover:scale-110 inline-flex p-2 border-blue-600 capitalize transition-colors duration-200 transform bg-blue-100 rounded-full   hover:underline hover:text-blue-600 dark:hover:text-blue-500"
             >
               <svg

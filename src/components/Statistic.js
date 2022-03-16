@@ -8,7 +8,7 @@ const Statistic = () => {
         <div className="mb-8 md:mb-6 text-center md:border-r">
           <h6 className="text-white text-4xl font-bold lg:text-5xl xl:text-6xl">
             <span className="text-white">
-              <CountUp start={0} end={4} duration={0.4} delay={0.1} />
+              <CountUp start={0} end={4} duration={0.7} delay={0.3} />
             </span>{' '}
             Mil
           </h6>
@@ -19,7 +19,7 @@ const Statistic = () => {
         <div className="md:mb-6 text-center md:border-r">
           <h6 className="text-white text-4xl font-bold lg:text-5xl xl:text-6xl">
             <span>
-              <CountUp start={0} end={1} duration={0.1} delay={0.5} />
+              <CountUp start={0} end={1} duration={0.2} delay={1.2} />
             </span>{' '}
             Mil
           </h6>
@@ -30,7 +30,7 @@ const Statistic = () => {
         <div className="md:mb-6  text-center md:border-r">
           <h6 className="text-white text-4xl font-bold lg:text-5xl xl:text-6xl">
             <span>
-              <CountUp start={0} end={3} duration={0.3} delay={0.6} />
+              <CountUp start={0} end={3} duration={0.5} delay={1.6} />
             </span>{' '}
           </h6>
           <p className="text-gray-300 text-sm font-medium tracking-widest uppercase lg:text-base">
@@ -40,7 +40,7 @@ const Statistic = () => {
         <div className="md:px-8 text-center">
           <h6 className="text-white text-4xl font-bold lg:text-5xl xl:text-6xl">
             <span>
-              <CountUp start={0} end={63} duration={0.8} delay={0.8} />
+              <CountUp start={0} end={63} duration={1.5} delay={2.3} />
             </span>{' '}
             %
           </h6>

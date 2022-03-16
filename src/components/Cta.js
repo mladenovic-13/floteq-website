@@ -15,7 +15,7 @@ const Cta = () => {
           <div className="mt-12 inline-flex rounded-md shadow">
             <button
               type="button"
-              className="py-3 px-4 bg-white bg-opacity-80 w-full transition ease-in duration-200 text-center text-2xl shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded 
+              className="uppercase py-3 px-4 bg-white bg-opacity-80 w-full transition ease-in duration-200 text-center text-2xl shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded 
               "
             >
               Free Demo

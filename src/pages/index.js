@@ -10,11 +10,20 @@ import Monitoring from '../components/Monitoring';
 import IotBenefits from '../components/IotBenefits';
 import Contact from '../components/about/Contact';
 import Hero from '../components/Hero';
+import Benefits from '../components/Benefits';
 
 const Index = () => {
+  document.addEventListener('readystatechange', function () {
+    if (document.readyState === 'complete') {
+      init();
+    }
+  });
+
   return (
     <Layout>
       <Hero />
+
+      <Benefits />
 
       <MainFeatures />
 

@@ -9,7 +9,7 @@ const Solutions = () => {
           <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl ">SOLUTIONS</h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">KNOW MORE. DO MORE.</p>
         </div>
-        <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+        <div id="data" className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
               SOLUTIONS DATA MANAGEMENT
@@ -79,6 +79,7 @@ const Solutions = () => {
           </div>
           <div className="mt-10 lg:mt-0">
             <StaticImage
+              imgStyle={{ borderRadius: '4%' }}
               height={560}
               src="../../images/solution.jpeg"
               alt=""
@@ -87,7 +88,7 @@ const Solutions = () => {
           </div>
         </div>
         <div>
-          <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+          <div id="autoData" className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div className="lg:col-start-2">
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
                 AUTOMATED DATA INTEGRATION MONITOR
@@ -183,6 +184,7 @@ const Solutions = () => {
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
               <StaticImage
+                imgStyle={{ borderRadius: '4%' }}
                 src="../../images/solution2.jpeg"
                 alt=""
                 className="mx-auto rounded-lg shadow-lg "
@@ -191,7 +193,10 @@ const Solutions = () => {
           </div>
         </div>
       </div>
-      <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+      <div
+        id="chs"
+        className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl"
+      >
         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
@@ -261,6 +266,7 @@ const Solutions = () => {
           </div>
           <div ariaHidden="true" className="mt-10 lg:mt-0">
             <StaticImage
+              imgStyle={{ borderRadius: '4%' }}
               height={380}
               src="../../images/solution3.jpeg"
               alt=""
@@ -338,6 +344,7 @@ const Solutions = () => {
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
               <StaticImage
+                imgStyle={{ borderRadius: '4%' }}
                 height={400}
                 src="../../images/solution4.jpeg"
                 alt=""

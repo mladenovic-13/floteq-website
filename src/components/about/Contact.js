@@ -21,10 +21,10 @@ export default function Contact() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <p>
+              <span>
                 1300 FLOTEQ Suite 305,
                 <br /> 5 Celebration Drive Bella Vista NSW 2153
-              </p>
+              </span>
             </p>
             <p className="flex items-center">
               <svg
@@ -39,7 +39,7 @@ export default function Contact() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <p>Sindjeliceva 40, Vracar Belgrade, 11000, Serbia</p>
+              <span>Sindjeliceva 40, Vracar Belgrade, 11000, Serbia</span>
             </p>
 
             <p className="flex items-center">
@@ -88,7 +88,7 @@ export default function Contact() {
             <span className="mb-1">Message</span>
             <textarea
               rows="5"
-              className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 "
+              className="block w-full rounded-md border-2 focus:ring focus:ring-opacity-75 bg-white "
             ></textarea>
           </label>
           <button

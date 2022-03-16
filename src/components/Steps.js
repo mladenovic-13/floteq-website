@@ -144,7 +144,7 @@ const Steps = () => {
           <StaticImage
             imgStyle={{ borderRadius: '3%' }}
             className="inset-0 object-cover object-bottom w-full rounded-md h-96 lg:absolute lg:h-full"
-            src="../images/board.jpg"
+            src="../images/solution4.jpeg"
             alt=""
           />
         </div>
