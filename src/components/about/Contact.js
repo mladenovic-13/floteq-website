@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'gatsby';
 
 export default function Contact() {
   const [serverState, setServerState] = useState({
@@ -94,6 +95,7 @@ export default function Contact() {
           <label className="block">
             <span className="mb-1">Full Name</span>
             <input
+              name="Name"
               type="text"
               placeholder="Leroy Jenkins"
               className="p-2 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 "
@@ -102,6 +104,7 @@ export default function Contact() {
           <label className="block">
             <span className="mb-1">Email Address</span>
             <input
+              name="Email"
               type="email"
               placeholder="leroy@jenkins.com"
               className="p-2 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 "
@@ -110,6 +113,7 @@ export default function Contact() {
           <label className="block">
             <span className="mb-1">Contact tel:</span>
             <input
+              name="Phone"
               type="tel"
               placeholder="Phone Number"
               className="p-2 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 "
@@ -118,6 +122,7 @@ export default function Contact() {
           <label className="block">
             <span className="mb-1">Message</span>
             <textarea
+              name="Message"
               rows="5"
               className="block w-full rounded-md border-2 focus:ring focus:ring-opacity-75 bg-white "
             ></textarea>
