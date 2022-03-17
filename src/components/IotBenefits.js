@@ -68,13 +68,13 @@ const IotBenefits = () => {
             alt="Image Alt Text"
             imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-48 rounded "
-            src="../images/beer1.jpg"
+            src="../images/beer1.jpeg"
           />
           <StaticImage
             alt="Image Alt Text"
             imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-48 rounded "
-            src="../images/beer2.jpg"
+            src="../images/beer2.jpeg"
           />
         </div>
       </div>

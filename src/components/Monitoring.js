@@ -45,7 +45,7 @@ const Monitoring = () => {
             alt="Image Alt Text"
             imgStyle={{ borderRadius: '3%' }}
             className="object-cover w-full h-56 rounded sm:h-96"
-            src="../images/monitoring.jpg"
+            src="../images/monitoring.jpeg"
           />
         </div>
       </div>
