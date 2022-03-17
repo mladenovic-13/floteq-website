@@ -104,7 +104,7 @@ const Pricing = () => {
                 </div>
               </div>
 
-              <Link to="/order" state={{ plan: 'Basic' }}>
+              <Link to="/orderBasic">
                 <div className="text-center mx-auto md:w-2/5 px-4 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
                   Choose plan
                 </div>
@@ -206,7 +206,7 @@ const Pricing = () => {
                 </div>
               </div>
 
-              <Link to="/order" state={{ plan: 'Popular' }}>
+              <Link to="/orderPopular">
                 <div className="text-center mx-auto md:w-2/5 px-4 py-2 mt-2 md:mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
                   Choose plan
                 </div>
@@ -222,7 +222,7 @@ const Pricing = () => {
                 solution
               </p>
 
-              <Link to="/order" state={{ plan: 'Custom' }}>
+              <Link to="/orderCustom">
                 <div className="mx-auto text-center md:w-2/5 px-4 py-2 mt-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
                   Choose plan
                 </div>

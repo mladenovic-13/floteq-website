@@ -5,9 +5,6 @@ import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 
 const Order = ({ location }) => {
-  // LOCATION DATA
-  const plan = location.state.plan;
-
   // MODAL STATE
   let [isOpen, setIsOpen] = useState(false);
   function closeModal() {
@@ -39,7 +36,7 @@ const Order = ({ location }) => {
     // GETFORM API
     const form = e.target;
     let formData = new FormData(form);
-    formData.append('NEW ORDER', plan);
+    formData.append('NEW ORDER', 'CUSTOM');
 
     setServerState({ submitting: true });
     axios({
@@ -61,7 +58,7 @@ const Order = ({ location }) => {
     <>
       <Header />
       <section className="w-full max-w-2xl px-6 mt-16 mb-6 py-12 mx-auto bg-white rounded-md shadow-md ">
-        <h2 className="text-3xl font-semibold text-center text-gray-800 ">Order: {plan}</h2>
+        <h2 className="text-3xl font-semibold text-center text-gray-800 ">Order: CUSTOM</h2>
 
         <form onSubmit={handleSubmit}>
           <div className="mt-6 ">
