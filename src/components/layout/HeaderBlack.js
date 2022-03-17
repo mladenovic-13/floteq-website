@@ -49,7 +49,7 @@ function NavBlack() {
                 </Link>
 
                 <AnchorLink
-                  to="#contact"
+                  to="/#contact"
                   className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Contact

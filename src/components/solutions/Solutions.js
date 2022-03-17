@@ -3,13 +3,13 @@ import React from 'react';
 
 const Solutions = () => {
   return (
-    <section id="hero" className="">
-      <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+    <section>
+      <div className="container max-w-xl p-6 md:py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
         <div>
           <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl ">SOLUTIONS</h2>
-          <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">KNOW MORE. DO MORE.</p>
+          <p className="max-w-3xl mx-auto mt-2 text-xl text-center ">KNOW MORE. DO MORE.</p>
         </div>
-        <div id="data" className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+        <div id="data" className="pt-0 mt-0 grid lg:gap-8 lg:grid-cols-2 lg:place-items-center">
           <div>
             <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
               SOLUTIONS DATA MANAGEMENT

@@ -35,14 +35,14 @@ export default function Footer() {
             <li className="my-2">
               <AnchorLink
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
-                to="#pricing"
+                to="/#pricing"
               >
                 Pricing
               </AnchorLink>
             </li>
             <li className="my-2">
               <AnchorLink
-                to="#contact"
+                to="/#contact"
                 className="text-gray-600 hover:text-gray-900   transition-colors duration-200"
               >
                 Contact
