@@ -6,7 +6,7 @@ import Footer from '../components/layout/Footer';
 
 const Order = ({ location }) => {
   // LOCATION DATA
-  const plan = window.history.state.plan;
+  const plan = location.state.plan;
 
   // MODAL STATE
   let [isOpen, setIsOpen] = useState(false);
