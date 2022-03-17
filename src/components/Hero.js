@@ -1,5 +1,5 @@
 import React from 'react';
-import BackgroundImage from '../images/herobeer2.jpg';
+import BackgroundImage from '../images/herobeer2test.jpeg';
 import Cta from './Cta';
 import Statistic from './Statistic';
 
