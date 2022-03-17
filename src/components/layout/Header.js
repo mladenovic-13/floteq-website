@@ -133,7 +133,7 @@ function Nav() {
 
               <AnchorLink
                 onAnchorLinkClick={() => setIsOpen(!isOpen)}
-                to="#pricing"
+                to="/#pricing"
                 className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Pricing
@@ -148,7 +148,7 @@ function Nav() {
 
               <AnchorLink
                 onAnchorLinkClick={() => setIsOpen(!isOpen)}
-                to="#contact"
+                to="/#contact"
                 className="text-primary-darker block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Contact
