@@ -14,7 +14,7 @@ function Team() {
             <a href="#" className="block relative">
               <div className="rounded-full">
                 <StaticImage
-                  alt="profil"
+                  alt="Image Alt Text"
                   imgStyle={{ borderRadius: '100%' }}
                   src="../images/miles.webp"
                   className="rounded-full mx-auto object-cover  h-40 w-40 "
@@ -94,8 +94,8 @@ function Team() {
           <div className="text-center mb-4 opacity-90">
             <a href="#" className="block relative">
               <StaticImage
+                alt="Image Alt Text"
                 imgStyle={{ borderRadius: '100%' }}
-                alt="profil"
                 src="../images/diana.webp"
                 className="mx-auto object-cover rounded-full h-40 w-40 "
               />
@@ -173,8 +173,8 @@ function Team() {
           <div className="text-center mb-4 opacity-90">
             <a href="#" className="block relative">
               <StaticImage
+                alt="Image Alt Text"
                 imgStyle={{ borderRadius: '100%' }}
-                alt="profil"
                 src="../images/david.webp"
                 className="mx-auto object-cover rounded-full h-40 w-40 "
               />

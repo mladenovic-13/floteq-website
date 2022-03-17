@@ -14,10 +14,10 @@ const Benefits = () => {
       <div className="grid gap-10 row-gap-10 lg:grid-cols-2">
         <div className="order-last md:order-first">
           <StaticImage
+            alt="Image Alt Text"
             imgStyle={{ borderRadius: '3%' }}
             className="object-cover w-full h-56 sm:h-96"
             src="../images/solution.jpeg"
-            alt=""
           />
         </div>
         <div className="flex flex-col justify-center">

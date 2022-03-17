@@ -79,10 +79,10 @@ const Solutions = () => {
           </div>
           <div className="mt-10 lg:mt-0">
             <StaticImage
+              alt="Image Alt Text"
               imgStyle={{ borderRadius: '4%' }}
               height={560}
               src="../../images/solution.jpeg"
-              alt=""
               className="mx-auto rounded-lg shadow-lg "
             />
           </div>
@@ -184,9 +184,9 @@ const Solutions = () => {
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
               <StaticImage
+                alt="Image Alt Text"
                 imgStyle={{ borderRadius: '4%' }}
                 src="../../images/solution2.jpeg"
-                alt=""
                 className="mx-auto rounded-lg shadow-lg "
               />
             </div>
@@ -264,12 +264,12 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div ariaHidden="true" className="mt-10 lg:mt-0">
+          <div aria-hidden="true" className="mt-10 lg:mt-0">
             <StaticImage
+              alt="Image Alt Text"
               imgStyle={{ borderRadius: '4%' }}
               height={380}
               src="../../images/solution3.jpeg"
-              alt=""
               className="mx-auto rounded-lg shadow-lg "
             />
           </div>
@@ -344,10 +344,10 @@ const Solutions = () => {
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
               <StaticImage
+                alt="Image Alt Text"
                 imgStyle={{ borderRadius: '4%' }}
                 height={400}
                 src="../../images/solution4.jpeg"
-                alt=""
                 className="mx-auto rounded-lg shadow-lg "
               />
             </div>

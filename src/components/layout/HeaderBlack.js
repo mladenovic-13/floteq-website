@@ -18,9 +18,9 @@ function NavBlack() {
           <Link to="/">
             <div className="flex-shrink-0 cursor-pointer">
               <StaticImage
+                alt="Image Alt Text"
                 className="h-8 w-32 transition ease-in-out delay-150 hover:scale-110 duration-200"
                 src="../../images/logowhite.png"
-                alt="Workflow"
               />
             </div>
           </Link>
@@ -133,7 +133,7 @@ function NavBlack() {
 
               <AnchorLink
                 onAnchorLinkClick={() => setIsOpen(!isOpen)}
-                to="#pricing"
+                to="/#pricing"
                 className="text-white block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Pricing
@@ -148,7 +148,7 @@ function NavBlack() {
 
               <AnchorLink
                 onAnchorLinkClick={() => setIsOpen(!isOpen)}
-                to="#contact"
+                to="/#contact"
                 className="text-white block px-3 py-2 rounded-md text-lg font-medium"
               >
                 Contact

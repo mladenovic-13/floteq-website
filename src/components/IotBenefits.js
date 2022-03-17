@@ -18,7 +18,7 @@ const IotBenefits = () => {
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-indigo-50">
-                <StaticImage className="w-10 h-10" src="../images/data1.png" />
+                <StaticImage alt="Image Alt Text" className="w-10 h-10" src="../images/data1.png" />
               </div>
             </div>
             <div>
@@ -32,7 +32,7 @@ const IotBenefits = () => {
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-indigo-50">
-                <StaticImage className="w-10 h-10" src="../images/data2.png" />
+                <StaticImage alt="Image Alt Text" className="w-10 h-10" src="../images/data2.png" />
               </div>
             </div>
             <div>
@@ -46,7 +46,7 @@ const IotBenefits = () => {
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-indigo-50">
-                <StaticImage className="w-10 h-10" src="../images/data3.png" />
+                <StaticImage alt="Image Alt Text" className="w-10 h-10" src="../images/data3.png" />
               </div>
             </div>
             <div className="mb-2">
@@ -59,22 +59,22 @@ const IotBenefits = () => {
         </div>
         <div className="grid grid-cols-2 gap-5">
           <StaticImage
+            alt="Image Alt Text"
             imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-56 col-span-2 rounded "
             src="../images/solution2.jpeg"
-            alt=""
           />
           <StaticImage
+            alt="Image Alt Text"
             imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-48 rounded "
             src="../images/beer1.jpg"
-            alt=""
           />
           <StaticImage
+            alt="Image Alt Text"
             imgStyle={{ borderRadius: '4%' }}
             className="object-cover w-full h-48 rounded "
             src="../images/beer2.jpg"
-            alt=""
           />
         </div>
       </div>

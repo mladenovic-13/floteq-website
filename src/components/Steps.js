@@ -142,10 +142,10 @@ const Steps = () => {
         </div>
         <div className="order-last md:order-first relative">
           <StaticImage
+            alt="Image Alt Text"
             imgStyle={{ borderRadius: '3%' }}
             className="inset-0 object-cover object-bottom w-full rounded-md h-96 lg:absolute lg:h-full"
             src="../images/solution4.jpeg"
-            alt=""
           />
         </div>
       </div>

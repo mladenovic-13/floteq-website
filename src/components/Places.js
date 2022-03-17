@@ -9,24 +9,24 @@ const Places = () => {
         <div className="flex order-last md:order-first items-center justify-center -mx-4 lg:pl-8">
           <div className="flex flex-col items-end px-3">
             <StaticImage
+              alt="Image Alt Text"
               imgStyle={{ borderRadius: '3%' }}
               className="object-cover mb-6 rounded shadow-lg h-36 sm:h-48 xl:h-56 w-32 sm:w-48 xl:w-56"
               src="../images/stadium.jpg"
-              alt=""
             />
             <StaticImage
+              alt="Image Alt Text"
               imgStyle={{ borderRadius: '3%' }}
               className="object-cover w-28 h-28 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
               src="../images/bar.jpg"
-              alt=""
             />
           </div>
           <div className="px-3">
             <StaticImage
+              alt="Image Alt Text"
               imgStyle={{ borderRadius: '3%' }}
               className="object-cover w-48 h-48 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
               src="../images/concert.jpg"
-              alt=""
             />
           </div>
         </div>

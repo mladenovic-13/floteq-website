@@ -18,9 +18,9 @@ function Nav() {
           <Link to="/">
             <div className="flex-shrink-0 cursor-pointer">
               <StaticImage
+                alt="Image Alt Text"
                 className="h-8 w-32 transition ease-in-out delay-150 hover:scale-110 duration-200"
                 src="../../images/Logo.png"
-                alt="Workflow"
               />
             </div>
           </Link>
@@ -35,7 +35,7 @@ function Nav() {
                 </Link>
 
                 <AnchorLink
-                  to="#pricing"
+                  to="/#pricing"
                   className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Pricing
@@ -49,7 +49,7 @@ function Nav() {
                 </Link>
 
                 <AnchorLink
-                  to="#contact"
+                  to="/#contact"
                   className="text-primary-darker hover:text-blue-800 px-3 py-2 rounded-md text-xl font-light"
                 >
                   Contact

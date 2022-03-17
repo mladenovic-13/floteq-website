@@ -1,6 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 export default function Contact() {
+  const [serverState, setServerState] = useState({
+    submitting: false,
+    status: null,
+  });
+  const handleServerResponse = (ok, msg, form) => {
+    setServerState({
+      submitting: false,
+      status: { ok, msg },
+    });
+    if (ok) {
+      form.reset();
+    }
+  };
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    setServerState({ submitting: true });
+    axios({
+      method: 'post',
+      url: 'https://getform.io/f/691b7fae-7c94-4200-b4ba-c161f0de9db6',
+      data: new FormData(form),
+    })
+      .then((r) => {
+        handleServerResponse(true, 'Thanks!', form);
+      })
+      .catch((r) => {
+        handleServerResponse(false, r.response.data.error, form);
+      });
+  };
+
   return (
     <section id="contact" className="py-16">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
@@ -57,7 +88,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          noValidate=""
+          onSubmit={handleOnSubmit}
           className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
         >
           <label className="block">
@@ -79,8 +110,8 @@ export default function Contact() {
           <label className="block">
             <span className="mb-1">Contact tel:</span>
             <input
-              type="email"
-              placeholder="leroy@jenkins.com"
+              type="tel"
+              placeholder="Phone Number"
               className="p-2 block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 "
             />
           </label>
@@ -92,7 +123,7 @@ export default function Contact() {
             ></textarea>
           </label>
           <button
-            type="button"
+            type="submit"
             className="bg-primary-lighter hover:bg-primary-darker text-white self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 focus:ring-violet-400 hover:ring-violet-400"
           >
             Submit
