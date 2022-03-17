@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 const Pricing = () => {
   return (
@@ -103,9 +104,11 @@ const Pricing = () => {
                 </div>
               </div>
 
-              <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
-                Choose plan
-              </button>
+              <Link to="/order" state={{ plan: 'Basic' }}>
+                <div className="text-center mx-auto md:w-2/5 px-4 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
+                  Choose plan
+                </div>
+              </Link>
             </div>
             <div className="px-6 py-4 transition-colors duration-200 transform bg-gray-700 hover:bg-gray-800 rounded-lg ">
               <p className="text-lg font-medium text-gray-100">Popular</p>
@@ -203,9 +206,11 @@ const Pricing = () => {
                 </div>
               </div>
 
-              <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
-                Choose plan
-              </button>
+              <Link to="/order" state={{ plan: 'Popular' }}>
+                <div className="text-center mx-auto md:w-2/5 px-4 py-2 mt-2 md:mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
+                  Choose plan
+                </div>
+              </Link>
             </div>
 
             <div className="bg-white border-0 shadow-lg px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
@@ -217,9 +222,11 @@ const Pricing = () => {
                 solution
               </p>
 
-              <button className="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
-                Choose plan
-              </button>
+              <Link to="/order" state={{ plan: 'Custom' }}>
+                <div className="mx-auto text-center md:w-2/5 px-4 py-2 mt-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
+                  Choose plan
+                </div>
+              </Link>
             </div>
           </div>
         </div>
