@@ -22,7 +22,7 @@ export default function Contact() {
     setServerState({ submitting: true });
     axios({
       method: 'post',
-      url: 'https://getform.io/f/691b7fae-7c94-4200-b4ba-c161f0de9db6',
+      url: 'https://getform.io/f/7cf93cc3-c68e-431e-8bae-04020c1c73bc',
       data: new FormData(form),
     })
       .then((r) => {
