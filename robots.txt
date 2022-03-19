@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /solutions
+Allow: /about
+
+Sitemap: https://www.floteq.gatsbyjs.io/sitemap.xml
