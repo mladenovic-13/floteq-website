@@ -12,10 +12,13 @@ import Contact from '../components/about/Contact';
 import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
 import Wrapper from '../components/layout/Wrapper';
+import SEO from '../components/Seo';
 
 const Index = () => {
   return (
     <Layout>
+      <SEO />
+
       <Hero />
 
       <Wrapper isDark={true}>

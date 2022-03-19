@@ -2,10 +2,12 @@ import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Footer from '../components/layout/Footer';
 import Header from '../components/layout/Header';
+import SEO from '../components/Seo';
 
 export default function about() {
   return (
     <>
+      <SEO title="Floteq | About Us" />
       <Header />
       <div className="text-center p-4 mt-12 md:mt-20">
         <div id="data" className="grid lg:grid-cols-2 lg:place-items-center">

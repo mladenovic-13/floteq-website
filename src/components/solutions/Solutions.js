@@ -198,10 +198,7 @@ const Solutions = () => {
           </div>
         </Wrapper>
       </div>
-      <div
-        id="chs"
-        className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl"
-      >
+      <div id="chs" className="container max-w-xl mx-auto lg:max-w-7xl">
         <Wrapper isDark={true}>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
