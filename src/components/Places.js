@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const Places = () => {
   return (
-    <div className="pt-8 pb-12 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="grid gap-2 md:gap-16 lg:grid-cols-2">
         <div className="flex order-last md:order-first items-center justify-center -mx-4 lg:pl-8">
           <div className="flex flex-col items-end px-3">

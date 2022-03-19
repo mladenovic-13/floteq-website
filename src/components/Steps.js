@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Steps = () => {
   return (
-    <div className="px-4 pt-10 pb-16 md:py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
         <div className="lg:py-1 lg:pr-16">
           <h1 className="mb-10 text-center md:text-left md:ml-12 md:mb-6 md:pl-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">

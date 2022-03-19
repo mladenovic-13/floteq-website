@@ -3,7 +3,7 @@ import React from 'react';
 
 const Monitoring = () => {
   return (
-    <div className="px-4 pt-10 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-0 lg:pb-6">
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">

@@ -11,33 +11,48 @@ import IotBenefits from '../components/IotBenefits';
 import Contact from '../components/about/Contact';
 import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
+import Wrapper from '../components/layout/Wrapper';
 
 const Index = () => {
   return (
     <Layout>
       <Hero />
 
-      <Benefits />
+      <Wrapper isDark={true}>
+        <Benefits />
+      </Wrapper>
+      <Wrapper isDark={false}>
+        <MainFeatures />
+      </Wrapper>
 
-      <MainFeatures />
+      <Wrapper isDark={true}>
+        <IotBenefits />
+      </Wrapper>
 
-      <IotBenefits />
+      <Wrapper isDark={false}>
+        <Places />
+      </Wrapper>
+      <Wrapper isDark={true}>
+        <Monitoring />
+      </Wrapper>
+      <Wrapper isDark={false}>
+        <Steps />
+      </Wrapper>
+      <Wrapper isDark={true}>
+        <Pricing />
+      </Wrapper>
 
-      <Places />
-
-      <Monitoring />
-
-      <Steps />
-
-      <Pricing />
-
-      <Team />
-
-      <FreePilot />
+      <Wrapper isDark={false}>
+        <Team />
+      </Wrapper>
+      <Wrapper isDark={true}>
+        <FreePilot />
+      </Wrapper>
 
       {/* ADD PARTNERS */}
-
-      <Contact />
+      <Wrapper isDark={false}>
+        <Contact />
+      </Wrapper>
     </Layout>
   );
 };

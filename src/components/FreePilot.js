@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function FreePilot() {
   return (
-    <section className="container mx-auto px-3 py-16 md:p-20 text-center">
+    <section className="container mx-auto md:p-20 text-center">
       <h3 className="text-5xl font-semibold">Ready to work together?</h3>
       <p className="mt-8">
         <button
