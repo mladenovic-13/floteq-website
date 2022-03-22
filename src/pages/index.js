@@ -13,6 +13,7 @@ import Hero from '../components/Hero';
 import Benefits from '../components/Benefits';
 import Wrapper from '../components/layout/Wrapper';
 import SEO from '../components/Seo';
+import Partners from '../components/about/Partners';
 
 const Index = () => {
   return (
@@ -20,6 +21,8 @@ const Index = () => {
       <SEO />
 
       <Hero />
+
+      <Partners />
 
       <Wrapper isDark={true}>
         <Benefits />

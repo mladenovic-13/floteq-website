@@ -54,7 +54,7 @@ const Charts = () => {
       </div>
       <div className="border-0 p-1 md:p-6 text-primary-darker bg-white shadow-lg col-span-2 text-2xl md:text-4xl row-span-2">
         <h1 className="mb-4 text-sm text-gray-500 text-left">DAILY TEMPERATURE</h1>
-        <StaticImage src="../../images/chart.jpeg" />
+        <StaticImage alt="Floteq Solutions Chart" src="../../images/chart.jpeg" />
       </div>
 
       {/* row */}

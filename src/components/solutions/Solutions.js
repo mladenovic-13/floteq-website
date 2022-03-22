@@ -1,6 +1,7 @@
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Wrapper from '../layout/Wrapper';
+import Charts from './Charts';
 
 const Solutions = () => {
   return (
@@ -9,6 +10,9 @@ const Solutions = () => {
         <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl ">SOLUTIONS</h2>
         <p className="max-w-3xl mx-auto mt-2 text-xl text-center ">KNOW MORE. DO MORE.</p>
       </div>
+
+      <Charts />
+
       <div className="container max-w-xl mx-auto lg:max-w-7xl">
         <Wrapper isDark={true}>
           <div id="data" className="grid lg:gap-8 lg:grid-cols-2 lg:place-items-center">
