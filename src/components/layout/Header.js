@@ -60,7 +60,7 @@ function Nav() {
           <div>
             <a
               href="https://floteq.sitelantern.com/console/"
-              className="transition ease-in-out delay-150 hover:scale-110 duration-200 cursor-pointer bg-primary-lighter hover:bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white font-light"
+              className="uppercase transition ease-in-out delay-150 hover:scale-110 duration-200 cursor-pointer bg-primary-lighter hover:bg-primary-darker hidden md:inline-flex items-center justify-center px-5 py-2 rounded-lg text-white  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white font-light"
             >
               Client Login
             </a>

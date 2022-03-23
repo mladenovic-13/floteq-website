@@ -15,7 +15,6 @@ const Hero = () => {
         height: '100vh',
         maxWidth: '100%',
       }}
-      className="md:-mr-14"
     >
       <div className="py-8">
         <Cta />
