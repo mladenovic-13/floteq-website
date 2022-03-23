@@ -4,9 +4,9 @@ import { Link } from 'gatsby';
 
 const Places = () => {
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+    <div className="mx-auto">
       <div className="grid gap-2 md:gap-16 lg:grid-cols-2">
-        <div className="flex order-last md:order-first items-center justify-center -mx-4 lg:pl-8">
+        <div className="mx-auto w-5/6 flex order-last lg:order-first items-center justify-center">
           <div className="flex flex-col items-end px-3">
             <StaticImage
               alt="Image Alt Text"
@@ -25,14 +25,14 @@ const Places = () => {
             <StaticImage
               alt="Image Alt Text"
               imgStyle={{ borderRadius: '3%' }}
-              className="object-cover w-48 h-48 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+              className="object-cover w-32 h-32 xsm:w-44 xsm:h-44 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
               src="../images/concert.jpeg"
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-          <div className="max-w-xl mb-6">
-            <h2 className="text-center md:text-left max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+        <div className="w-5/6 xsm:w-full flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+          <div className="mb-6">
+            <h2 className="text-center lg:text-left  mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               Let us handle
               <br className="hidden md:block" />
               your next <span className="inline-block ">event</span>

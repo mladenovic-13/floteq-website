@@ -3,20 +3,20 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Benefits = () => {
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-      <div className="mx-auto max-w-xl mb-6 md:w-1/3">
-        <h2 className="text-center max-w-lg mb-4 md:mb-12 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+    <div className="mx-auto">
+      <div className="mx-auto mb-6 lg:w-1/3">
+        <h2 className="text-center mb-4 md:mb-12 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
           GIVE YOUR VENUE
           <br />
           THE BOOST IT NEEDS
         </h2>
       </div>
-      <div className="grid gap-10 row-gap-10 lg:grid-cols-2">
+      <div className="grid gap-4 md:gap-10 row-gap-10 lg:grid-cols-2">
         <div className="order-last md:order-first">
           <StaticImage
             alt="Image Alt Text"
             imgStyle={{ borderRadius: '3%' }}
-            className="object-cover w-full h-56 sm:h-96"
+            className="object-cover w-5/6 xsm:w-full md:h-96  "
             src="../images/solution.jpeg"
           />
         </div>

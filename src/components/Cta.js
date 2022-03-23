@@ -3,8 +3,8 @@ import React from 'react';
 
 const Cta = () => {
   return (
-    <div className="mx-auto my-0 sm:my-4 md:my-8 md:w-1/2 bg-black bg-opacity-70  rounded">
-      <div className="text-center w-full mx-auto pt-16 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
+    <div className="py-8 mx-auto my-0 md:mb-52 lg:mb-28 md:w-2/3 lg:w-1/2 bg-black bg-opacity-70  rounded">
+      <div className="text-center w-full mx-auto pt-6 px-4 z-20">
         <h2 className="text-4xl xsm:text-6xl font-extrabold text-white  ">
           <span className="block">We love your beer</span>
           <span className="block">as much as you do!</span>

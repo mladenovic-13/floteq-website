@@ -14,9 +14,10 @@ const Hero = () => {
         backgroundRepeat: 'no-repeat',
         height: '100vh',
         maxWidth: '100%',
+        top: 0,
       }}
     >
-      <div className="py-8">
+      <div className="pt-12 lg:pt-16">
         <Cta />
         <Statistic />
       </div>

@@ -12,7 +12,7 @@ function Nav() {
   };
 
   return (
-    <nav className="bg-white shadow w-full fixed top-0 overflow-hidden z-20">
+    <nav className="bg-white shadow w-screen fixed top-0 overflow-hidden z-20">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-14">
           <Link to="/">

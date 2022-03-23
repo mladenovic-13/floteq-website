@@ -3,10 +3,10 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Steps = () => {
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+    <div className="mx-auto">
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
         <div className="lg:py-1 lg:pr-16">
-          <h1 className="mb-10 text-center md:text-left md:ml-12 md:mb-6 md:pl-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
+          <h1 className="mb-10 text-center lg:text-left md:ml-12 md:mb-6 md:pl-2 text-3xl font-semibold text-gray-800 capitalize lg:text-4xl ">
             Our Installation Process
           </h1>
           <div className="flex">
@@ -140,7 +140,7 @@ const Steps = () => {
             </div>
           </div>
         </div>
-        <div className="order-last md:order-first relative">
+        <div className="order-last lg:order-first relative">
           <StaticImage
             alt="Image Alt Text"
             imgStyle={{ borderRadius: '3%' }}

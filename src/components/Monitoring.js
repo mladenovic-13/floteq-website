@@ -3,14 +3,14 @@ import React from 'react';
 
 const Monitoring = () => {
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+    <div className="mx-auto">
       <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
-          <div className="max-w-xl mb-6">
-            <h2 className="text-center md:text-left max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          <div className="mb-6">
+            <h2 className="text-center lg:text-left  mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
               Android / iOS and Desktop Application
             </h2>
-            <p className="text-center md:text-left text-base text-gray-700 md:text-lg">
+            <p className="text-center lg:text-left text-base text-gray-700 md:text-lg">
               Some text. Some text. Some text.Some text. Some text. Some text. Some text. Some text.
               Some text. Some text. Some text. Some text. Some text.
             </p>
