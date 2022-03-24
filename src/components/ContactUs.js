@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+    <div className="mx-auto p-8 lg:px-16 lg:py-8">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">

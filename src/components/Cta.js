@@ -15,11 +15,11 @@ const Cta = () => {
         <div className="lg:mt-0 lg:flex-shrink-0">
           <div className="mt-12 inline-flex rounded-md shadow">
             <Link
-              to="/orderDemo"
+              to="/request-demo"
               className="uppercase py-3 px-4 bg-white bg-opacity-90 w-full transition ease-in duration-200 text-center text-2xl shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded 
               "
             >
-              Free Demo
+              request demo
             </Link>
           </div>
         </div>

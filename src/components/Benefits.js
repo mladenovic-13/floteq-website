@@ -21,7 +21,7 @@ const Benefits = () => {
           />
         </div>
         <div className="flex flex-col justify-center">
-          <div className="mb-6 text-3xl flex items-center">
+          <div className="mb-6 text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"
@@ -38,7 +38,7 @@ const Benefits = () => {
             <span className="mx-4 text-gray-700">Reduce 6-12% average draught beer loss</span>
           </div>
 
-          <div className="mb-6 text-3xl flex items-center">
+          <div className="mb-6 text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker "
@@ -55,7 +55,7 @@ const Benefits = () => {
             <span className="mx-4 text-gray-700 ">Eliminate Gassy, Flat, Foamy or warm bee</span>
           </div>
 
-          <div className="mb-6 text-3xl flex items-center">
+          <div className="mb-6 text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"
@@ -72,7 +72,7 @@ const Benefits = () => {
             <span className="mx-4 text-gray-700 ">Ensure clean and hygenic lines</span>
           </div>
 
-          <div className="mb-6 text-3xl flex items-center">
+          <div className="mb-6 text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"
@@ -88,7 +88,7 @@ const Benefits = () => {
 
             <span className="mx-4 text-gray-700 ">Complete Inventory consumption/revenue</span>
           </div>
-          <div className=" text-3xl flex items-center">
+          <div className=" text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"

@@ -26,7 +26,7 @@ const Charts = () => {
   };
 
   return (
-    <section className="p-4 my-16 md:p-12 lg:p-24 mx-auto text-center w-full grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 md:grid-rows-4 lg:grid-rows-5 gap-2 md:gap-4 bg-gray-100">
+    <section className="p-4 md:px-12 md:py-6 mx-auto text-center  grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 md:grid-rows-4 lg:grid-rows-3 gap-2 md:gap-4 bg-gray-100">
       {/* row */}
       <div className="border-0 p-1 md:p-6 text-primary-darker bg-white shadow-lg text-2xl md:text-4xl">
         <h1 className="mb-2 md:mb-4 text-sm text-gray-500 text-left">TOTAL SALES</h1>
@@ -51,22 +51,6 @@ const Charts = () => {
       <div className="border-0 p-1 md:p-6 text-primary-darker bg-white shadow-lg text-2xl md:text-4xl row-span-2">
         <h1 className="mb-2 md:mb-8 text-sm text-gray-500 text-left">AVERAGE TEMPERATURE</h1>
         <div className="md:py-16 text-green-600">9.95˚C</div>
-      </div>
-      <div className="border-0 p-1 md:p-6 text-primary-darker bg-white shadow-lg col-span-2 text-2xl md:text-4xl row-span-2">
-        <h1 className="mb-4 text-sm text-gray-500 text-left">DAILY TEMPERATURE</h1>
-        <StaticImage alt="Floteq Solutions Chart" src="../../images/chart.jpeg" />
-      </div>
-
-      {/* row */}
-      <div className="border-0 p-1 md:p-6 bg-white shadow-lg col-span-2 row-span-2">
-        <h1 className="text-sm text-gray-500 text-left">SHARE OF BRENDS</h1>
-        <Chart
-          className="mx-auto h-48 md:h-64"
-          chartType="PieChart"
-          data={data}
-          options={options}
-          width={'100%'}
-        />
       </div>
       <div className="border-0 p-1 md:p-6 bg-white shadow-lg col-span-2 row-span-2">
         <h1 className="text-sm text-gray-500 text-left">SHARE OF BRENDS</h1>
