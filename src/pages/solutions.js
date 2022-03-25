@@ -11,9 +11,9 @@ export default function solutions() {
     <>
       <SEO title="Floteq | Solutions" />
       <Header />
-      <div className="mt-16">
-        <Solutions />
+      <div className="mt-14">
         <Charts />
+        <Solutions />
         <ContactUs />
       </div>
       <Footer />

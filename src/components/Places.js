@@ -33,13 +33,14 @@ const Places = () => {
         <div className="w-5/6 xsm:w-full flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
           <div className="mb-6">
             <h2 className="text-center lg:text-left  mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              Let us handle
-              <br className="hidden md:block" />
-              your next <span className="inline-block ">event</span>
+              Scalable technology thats easy to use
             </h2>
             <p className="text-center md:text-left text-base text-gray-700 md:text-lg">
-              Some text.Some text.Some text.Some text. Some text. Some text. Some text. Some text.
-              Some text. Some text. Some text. Some text. Some text. Some text.
+              Floteq’s draught beverage system is designed to scale up and down as required. From
+              handling individual venues with cost control focus to large outdoor stadiums,
+              improving operational effectiveness, cost reduction, revenue growth, staff, and stock
+              control to consumer behavior and brand integrity. Floteqs Draught monitoring system is
+              designed with venues and patrons at the front. We love your beer as much as you do!
             </p>
           </div>
           <div></div>

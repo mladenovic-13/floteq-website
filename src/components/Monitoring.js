@@ -11,32 +11,26 @@ const Monitoring = () => {
               Android / iOS and Desktop Application
             </h2>
             <p className="text-center lg:text-left text-base text-gray-700 md:text-lg">
-              Some text. Some text. Some text.Some text. Some text. Some text. Some text. Some text.
-              Some text. Some text. Some text. Some text. Some text.
+              Download and install our application for your managers, venue operators, and draught
+              beer controllers. Real-time updates on temperature fluctuations, pressure levels,
+              flow, and cleaning and hygiene alerts and schedules.
             </p>
+            <p>POS integration in the cloud or on-premise with open APIs for easy management.</p>
           </div>
           <div className="grid gap-8 row-gap-8 sm:grid-cols-2">
             <div>
-              <div className="mx-auto flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
-                <StaticImage alt="Image Alt Text" src="../images/apple.png" className="w-10 h-10" />
+              <div className="mx-auto flex items-center justify-center w-16 h-16 m-4 rounded-full">
+                <StaticImage alt="Image Alt Text" src="../images/apple.png" className="w-16 h-16" />
               </div>
-              <p className="text-center md:text-left text-sm text-gray-900">
-                Some text. Some text.Some text.Some text.Some text. Some text. Some text. Some text.
-                Some text. Some text.
-              </p>
             </div>
             <div>
-              <div className="mx-auto flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-indigo-50">
+              <div className="mx-auto flex items-center justify-center w-16 h-16 m-4 rounded-full">
                 <StaticImage
                   alt="Image Alt Text"
                   src="../images/android.png"
-                  className="w-10 h-10"
+                  className="w-16 h-16"
                 />
               </div>
-              <p className="text-center md:text-left text-sm text-gray-900">
-                Some text. Some text.Some text. Some text. Some text. Some text. Some text. Some
-                text. Some text.
-              </p>
             </div>
           </div>
         </div>
