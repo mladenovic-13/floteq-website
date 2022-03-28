@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import React from 'react';
 
 export default function FreePilot() {
@@ -9,7 +10,7 @@ export default function FreePilot() {
           type="button"
           className="bg-primary-lighter hover:bg-primary-darker text-xl inline-flex items-center justify-center px-8 py-4 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
         >
-          FREE PILOT FOR YOUR VENUE
+          <Link to="/request-demo">FREE PILOT FOR YOUR VENUE</Link>
         </button>
       </p>
     </section>

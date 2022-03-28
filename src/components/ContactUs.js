@@ -16,7 +16,7 @@ const ContactUs = () => {
             </p>
           </div>
           <Link
-            to="#contact"
+            to="/#contact"
             className="inline-flex items-center font-semibold transition-colors duration-200"
           >
             Contact Us
