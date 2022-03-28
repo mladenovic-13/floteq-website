@@ -6,12 +6,8 @@ const IotBenefits = () => {
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="text-center  max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-          Benefits od IoT
+          BENEFITS OF IOT DRAUGHT SYSTEM
         </h2>
-        <p className="text-center  text-base text-gray-700 md:text-lg">
-          Some text. Some text. Some text. Some text.Some text. Some text.Some text. Some text.Some
-          text. Some text.
-        </p>
       </div>
       <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
         <div className="flex flex-col justify-center">
@@ -24,7 +20,9 @@ const IotBenefits = () => {
             <div>
               <h6 className="mb-2 font-semibold leading-5">Benefit 1</h6>
               <p className="text-sm text-gray-900">
-                Some text. Some text.Some text. Some text. Some text. Some text. Some text.{' '}
+                Always connected on dedicated bandwidth, deep signal penetration allowing for
+                maximum use of space, cloud enabled machine learning and enhanced AI modules for
+                predictive consumption and lower cost of maintenance
               </p>
               <hr className="w-full my-6 border-gray-300" />
             </div>
@@ -38,7 +36,8 @@ const IotBenefits = () => {
             <div>
               <h6 className="mb-2 font-semibold leading-5">Benefit 2</h6>
               <p className="text-sm text-gray-900">
-                Some text. Some text.Some text. Some text. Some text. Some text. Some text.{' '}
+                Real Time insights into consumer behaviour, consumption and complete brand
+                integrity.real time stock control! Perfect pours every time!
               </p>
               <hr className="w-full my-6 border-gray-300" />
             </div>
@@ -52,7 +51,8 @@ const IotBenefits = () => {
             <div className="mb-2">
               <h6 className="mb-2 font-semibold leading-5">Benefit 3</h6>
               <p className="text-sm text-gray-900">
-                Some text.Some text.Some text.Some text.Some text. Some text. Some text. Some text.
+                Cost effective solutions for draught beer infrastructure enabling operatyional
+                improvements, cost reduction and revenue growth.
               </p>
             </div>
           </div>

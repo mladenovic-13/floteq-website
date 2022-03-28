@@ -4,7 +4,7 @@ import Wrapper from '../layout/Wrapper';
 
 const Solutions = () => {
   return (
-    <section>
+    <section className="pt-4 lg:pt-10">
       <div>
         <h2 className="hidden lg:block text-3xl font-bold tracking-tight text-center sm:text-4xl ">
           SOLUTIONS
