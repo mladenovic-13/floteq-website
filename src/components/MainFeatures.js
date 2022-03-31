@@ -48,7 +48,7 @@ const MainFeatures = () => {
 
             <p className="text-gray-500 ">
               iOS/Android Appliactions Connect to any cloud based POS Integrate into any cloud or
-              datawarehouse with open APIs t
+              datawarehouse with open APIs
             </p>
 
             <Link

@@ -9,8 +9,8 @@ const IotBenefits = () => {
           BENEFITS OF IOT DRAUGHT SYSTEM
         </h2>
       </div>
-      <div className="grid max-w-screen-lg gap-8 lg:grid-cols-2 sm:mx-auto">
-        <div className="flex flex-col justify-center">
+      <div className="flex flex-col lg:flex-row">
+        <div className=" flex flex-col justify-center lg:pr-4">
           <div className="flex">
             <div className="mr-4">
               <div className="flex items-center justify-center w-10 h-10 mb-3 rounded-full bg-indigo-50">
@@ -18,7 +18,7 @@ const IotBenefits = () => {
               </div>
             </div>
             <div>
-              <h6 className="mb-2 font-semibold leading-5">Benefit 1</h6>
+              <h6 className="mb-2 font-semibold leading-5">Always ON predictive intelligence</h6>
               <p className="text-sm text-gray-900">
                 Always connected on dedicated bandwidth, deep signal penetration allowing for
                 maximum use of space, cloud enabled machine learning and enhanced AI modules for
@@ -34,7 +34,7 @@ const IotBenefits = () => {
               </div>
             </div>
             <div>
-              <h6 className="mb-2 font-semibold leading-5">Benefit 2</h6>
+              <h6 className="mb-2 font-semibold leading-5">Realtime reporting and monitoring</h6>
               <p className="text-sm text-gray-900">
                 Real Time insights into consumer behaviour, consumption and complete brand
                 integrity.real time stock control! Perfect pours every time!
@@ -49,7 +49,7 @@ const IotBenefits = () => {
               </div>
             </div>
             <div className="mb-2">
-              <h6 className="mb-2 font-semibold leading-5">Benefit 3</h6>
+              <h6 className="mb-2 font-semibold leading-5">Minimised Wastre/Sustainable revenue</h6>
               <p className="text-sm text-gray-900">
                 Cost effective solutions for draught beer infrastructure enabling operatyional
                 improvements, cost reduction and revenue growth.
@@ -57,26 +57,11 @@ const IotBenefits = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-5">
-          <StaticImage
-            alt="Image Alt Text"
-            imgStyle={{ borderRadius: '4%' }}
-            className="object-cover w-full h-56 col-span-2 rounded "
-            src="../images/solution2.jpeg"
-          />
-          <StaticImage
-            alt="Image Alt Text"
-            imgStyle={{ borderRadius: '4%' }}
-            className="object-cover w-full h-48 rounded "
-            src="../images/beer1.jpeg"
-          />
-          <StaticImage
-            alt="Image Alt Text"
-            imgStyle={{ borderRadius: '4%' }}
-            className="object-cover w-full h-48 rounded "
-            src="../images/beer2.jpeg"
-          />
-        </div>
+        <StaticImage
+          alt="Image Alt Text"
+          src="../images/macbookDemo.png"
+          className="mt-4 lg:mt-0"
+        />
       </div>
     </div>
   );

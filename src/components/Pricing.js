@@ -214,19 +214,21 @@ const Pricing = () => {
             </div>
 
             <div className="bg-white border-0 shadow-lg px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 ">
-              <p className="text-lg font-medium text-gray-800 ">Enterprise</p>
-              <h4 className="mt-2 text-4xl font-semibold text-gray-800 ">Custom</h4>
-              <p className="text-lg mt-4 text-gray-600">
-                If you are a multi venue operators and have dynamic demands for variety of bars,
-                pubs and clubs as well as entertaimmnet venues please contact us for a full custom
-                solution
-              </p>
+              <div className="">
+                <p className="text-lg font-medium text-gray-800 ">Enterprise</p>
+                <h4 className="mt-2 text-4xl font-semibold text-gray-800 ">Custom</h4>
+                <p className="lg:pb-56 mt-4 lg:mt-2  text-lg text-gray-600">
+                  If you are a multi venue operators and have dynamic demands for variety of bars,
+                  pubs and clubs as well as entertaimmnet venues please contact us for a full custom
+                  solution
+                </p>
 
-              <Link to="/orderCustom">
-                <div className="mx-auto text-center md:w-2/5 px-4 py-2 mt-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
-                  Choose plan
-                </div>
-              </Link>
+                <Link to="/orderCustom">
+                  <div className="mx-auto text-center md:w-2/5 px-4 py-2 mt-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-primary-lighter rounded-md hover:bg-primary-darker focus:outline-none focus:bg-blue-600">
+                    Choose plan
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

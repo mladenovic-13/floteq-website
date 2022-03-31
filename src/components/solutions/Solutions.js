@@ -81,14 +81,8 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="mt-10 lg:mt-0">
-            <StaticImage
-              alt="Image Alt Text"
-              imgStyle={{ borderRadius: '4%' }}
-              height={560}
-              src="../../images/solution.jpeg"
-              className="rounded-lg shadow-lg "
-            />
+          <div className="lg:mt-0">
+            <StaticImage alt="Image Alt Text" height={560} src="../../images/bulb.png" />
           </div>
         </div>
         <div>
@@ -190,12 +184,7 @@ const Solutions = () => {
               </div>
             </div>
             <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-              <StaticImage
-                alt="Image Alt Text"
-                imgStyle={{ borderRadius: '4%' }}
-                src="../../images/solution2.jpeg"
-                className="mx-auto rounded-lg shadow-lg "
-              />
+              <StaticImage alt="Image Alt Text" src="../../images/cloud.png" className="mx-auto" />
             </div>
           </div>
         </div>
@@ -268,13 +257,12 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div aria-hidden="true" className="mt-10 lg:mt-0">
+          <div aria-hidden="true" className="lg:mt-0">
             <StaticImage
               alt="Image Alt Text"
-              imgStyle={{ borderRadius: '4%' }}
-              height={380}
-              src="../../images/solution3.jpeg"
-              className="mx-auto rounded-lg shadow-lg "
+              height={600}
+              src="../../images/kpi.png"
+              className="mx-auto"
             />
           </div>
         </div>

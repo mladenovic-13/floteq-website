@@ -52,7 +52,7 @@ const Benefits = () => {
               />
             </svg>
 
-            <span className="mx-4 text-gray-700 ">Eliminate Gassy, Flat, Foamy or warm bee</span>
+            <span className="mx-4 text-gray-700 ">Eliminate Gassy, Flat, Foamy or warm beer</span>
           </div>
 
           <div className="mb-6 text-2xl flex items-center">

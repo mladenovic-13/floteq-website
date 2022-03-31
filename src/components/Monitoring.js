@@ -15,9 +15,11 @@ const Monitoring = () => {
               beer controllers. Real-time updates on temperature fluctuations, pressure levels,
               flow, and cleaning and hygiene alerts and schedules.
             </p>
-            <p>POS integration in the cloud or on-premise with open APIs for easy management.</p>
+            <p lassName="text-center lg:text-left text-base text-gray-700 md:text-lg">
+              POS integration in the cloud or on-premise with open APIs for easy management.
+            </p>
           </div>
-          <div className="grid gap-8 row-gap-8 sm:grid-cols-2">
+          <div className="flex justify-around">
             <div>
               <div className="mx-auto flex items-center justify-center w-16 h-16 m-4 rounded-full">
                 <StaticImage alt="Image Alt Text" src="../images/apple.png" className="w-16 h-16" />
@@ -38,7 +40,7 @@ const Monitoring = () => {
           <StaticImage
             alt="Image Alt Text"
             imgStyle={{ borderRadius: '3%' }}
-            className="object-cover w-full h-56 rounded sm:h-96"
+            className="hidden lg:block object-cover w-full h-56 rounded sm:h-96"
             src="../images/monitoring.jpeg"
           />
         </div>
