@@ -15,9 +15,10 @@ const Benefits = () => {
         <div className="order-last md:order-first">
           <StaticImage
             alt="Image Alt Text"
+            height={530}
             imgStyle={{ borderRadius: '3%' }}
-            className="object-cover w-5/6 xsm:w-full md:h-96  "
-            src="../images/solution.jpeg"
+            className="w-5/6 xsm:w-full"
+            src="../images/hero2.png"
           />
         </div>
         <div className="flex flex-col justify-center">

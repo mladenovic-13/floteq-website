@@ -60,6 +60,7 @@ const IotBenefits = () => {
         <StaticImage
           alt="Image Alt Text"
           src="../images/macbookDemo.png"
+          height={780}
           className="mt-4 lg:mt-0"
         />
       </div>

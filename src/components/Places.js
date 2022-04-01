@@ -9,6 +9,7 @@ const Places = () => {
         <div className="mx-auto w-5/6 flex order-last lg:order-first items-center justify-center">
           <StaticImage
             alt="Image Alt Text"
+            height={780}
             imgStyle={{ borderRadius: '3%' }}
             className=" object-cover rounded shadow-lg"
             src="../images/stadium.jpeg"
