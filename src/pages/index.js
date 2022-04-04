@@ -24,15 +24,16 @@ const Index = () => {
 
       <Partners />
 
-      <Wrapper isDark={true}>
-        <Benefits />
-      </Wrapper>
-      <Wrapper isDark={false}>
-        <MainFeatures />
-      </Wrapper>
+      <div className="mx-auto w-5/6 border-b-2 lg:pt-4 lg:mb-10"></div>
+
+      <Benefits />
 
       <Wrapper isDark={true}>
         <IotBenefits />
+      </Wrapper>
+
+      <Wrapper isDark={false}>
+        <MainFeatures />
       </Wrapper>
 
       <Wrapper isDark={false}>

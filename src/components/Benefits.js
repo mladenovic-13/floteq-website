@@ -3,26 +3,19 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const Benefits = () => {
   return (
-    <div className="mx-auto">
-      <div className="mx-auto mb-6 lg:w-1/3">
-        <h2 className="text-center mb-4 md:mb-12 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-          GIVE YOUR VENUE
-          <br />
-          THE BOOST IT NEEDS
-        </h2>
+    <div className="mx-auto lg:w-11/12">
+      <div className="mx-auto w-4/5 lg:w-2/5 my-6">
+        <StaticImage width={600} alt="Floteq Header Image" src="../images/heroh1.png" />
       </div>
-      <div className="grid gap-4 md:gap-10 row-gap-10 lg:grid-cols-2">
-        <div className="order-last md:order-first">
-          <StaticImage
-            alt="Image Alt Text"
-            height={530}
-            imgStyle={{ borderRadius: '3%' }}
-            className="w-5/6 xsm:w-full"
-            src="../images/hero2.png"
-          />
-        </div>
-        <div className="flex flex-col justify-center">
-          <div className="mb-6 text-2xl flex items-center">
+      <div className="flex flex-col lg:flex-row justify-between">
+        <StaticImage
+          alt="Image Alt Text"
+          height={660}
+          imgStyle={{ borderRadius: '3%' }}
+          src="../images/herocrop.jpg"
+        />
+        <div className="hidden lg:flex flex-col justify-center">
+          <div className="mb-6 text-xl lg:text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"
@@ -39,7 +32,7 @@ const Benefits = () => {
             <span className="mx-4 text-gray-700">Reduce 6-12% average draught beer loss</span>
           </div>
 
-          <div className="mb-6 text-2xl flex items-center">
+          <div className="mb-6 text-xl lg:text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker "
@@ -56,7 +49,7 @@ const Benefits = () => {
             <span className="mx-4 text-gray-700 ">Eliminate Gassy, Flat, Foamy or warm beer</span>
           </div>
 
-          <div className="mb-6 text-2xl flex items-center">
+          <div className="mb-6 text-xl lg:text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"
@@ -73,7 +66,7 @@ const Benefits = () => {
             <span className="mx-4 text-gray-700 ">Ensure clean and hygenic lines</span>
           </div>
 
-          <div className="mb-6 text-2xl flex items-center">
+          <div className="mb-6 text-xl lg:text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"
@@ -89,7 +82,7 @@ const Benefits = () => {
 
             <span className="mx-4 text-gray-700 ">Complete Inventory consumption/revenue</span>
           </div>
-          <div className=" text-2xl flex items-center">
+          <div className=" text-xl lg:text-2xl flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="w-5 h-5 text-primary-darker"

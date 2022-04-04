@@ -10,7 +10,7 @@ const Cta = () => {
           <span className="block">as much as you do!</span>
         </h2>
 
-        <div className="lg:mt-0 lg:flex-shrink-0">
+        <div className="lg:mt-6 lg:flex-shrink-0">
           <div className="mt-12 mb-4 inline-flex rounded-md shadow transition ease-in-out delay-150 hover:scale-110 duration-200 cursor-pointer">
             <Link
               to="/request-demo"
