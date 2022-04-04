@@ -25,6 +25,6 @@ module.exports = {
     description: 'Floteq Description',
     author: 'Mladenovic13',
     keywords: ['floteq', 'beer', 'technology', 'bar', 'venue', 'iot', 'internet of things'],
-    siteUrl: 'https://www.floteq.gatsbyjs.io',
+    siteUrl: 'https://www.floteq.com.au',
   },
 };
