@@ -15,6 +15,8 @@ import Wrapper from '../components/layout/Wrapper';
 import SEO from '../components/Seo';
 import Partners from '../components/about/Partners';
 
+import '@fontsource/dosis';
+
 const Index = () => {
   return (
     <Layout>
