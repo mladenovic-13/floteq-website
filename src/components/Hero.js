@@ -17,7 +17,7 @@ const Hero = () => {
         top: 0,
       }}
     >
-      <div className="pt-6 lg:pt-20">
+      <div className="pt-6 lg:pt-36">
         <Cta />
         <Statistic />
       </div>
